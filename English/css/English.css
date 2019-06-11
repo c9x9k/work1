@@ -1,0 +1,171 @@
+body{
+  font-size: 10px;
+  margin:0;
+}
+header{
+	width: 100%;
+	height:4rem;
+}
+.cet-header{
+	width: 100%;
+	height:4rem;
+	position:fixed;
+	text-align: center;
+	z-index:10;
+	box-shadow: 0rem 0rem 0.3rem #d0d0d0;
+}
+.cet-header-top{
+	width: 100%;
+	height: 2.4rem;
+	line-height: 2.4rem;
+}
+.back {
+	line-height: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	background: #fff;
+}
+.back img{
+	margin: 9px;
+    position: absolute;
+	left: 0px;
+}
+.cet-title{
+   font-size: 16px;
+   font-weight: 600;
+}
+.cet-header-under{
+	width: 100%;
+	height: 1.6rem;
+	line-height:1.6rem;
+}
+.course-type-list{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 1.6rem;
+}
+.course-type-list div{
+	width: calc(100% /3);
+	height: 100%;
+	font-size: 12px;
+}
+.course-type-list div:nth-child(1){
+	 border-bottom:2px solid blue;
+}
+.course-type-list div:nth-child(2){
+	color: #888;
+}
+.course-type-list div:nth-child(3){
+   color: #888;
+}
+.cet-content{
+	width: 100%;
+	height: 100%;
+	padding-top: 1rem;
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+}
+.course-class-list{
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	padding-inline-start:0;
+	margin-block-start:0;
+	margin-inline-end:0;
+}
+.course-class-list li{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 1.2rem;
+}
+.course-class{
+	width: 94%;
+	margin:0 auto;
+	height: 6.6rem;
+	box-shadow: 0.1rem 0.1rem 0.3rem #d0d0d0;
+}
+.course-class-detail{
+	width: 100%;
+	height: 4.6rem;
+	display: flex;
+	justify-content: space-between;
+}
+.course-image{
+    width: 34%;
+    height: 4.6rem;
+}
+.course-image img{
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 4px;
+}
+.course-content{
+	width: 62%;
+	height: 4.6rem;
+}
+.course-content-title{
+   padding-right: 2rem;
+   overflow: hidden;
+   font-size: 14px;
+   margin-top: 0.4rem;
+   font-weight:600;
+   color: #222831;
+   -webkit-line-clamp:2;
+   height:2.0rem;
+   line-height: 1rem;
+}
+.course-content-date{
+	margin-top: 0.1rem;
+	font-size:0.6rem;
+	color: #c3c3cb;
+}
+.course-content-teacher{
+	margin-top: 0.05rem;
+	display: flex;
+	align-items: center;
+}
+.teacher-name{
+	color: #fff;
+	width: 2.6rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	padding:0.1rem 0;
+	background-color: #4c84ff;
+	opacity: 0.4;
+	margin-right: 0.3rem;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+}
+.course-class-buy{
+	height: 2rem;
+	background-color: #f6f7f8;
+	line-height: 2rem;
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+}
+.classs-buy-amount{ 
+    font-size: 12px;
+    color: #999;
+}
+.class-buy-price-2{
+   float: right;
+}
+.class-buy-price-2 a{
+   color:#333;
+   font-size: 14px;
+   text-decoration: none;
+}
+.class-buy-price-1{
+   float: right;
+   font-size: 10px;
+   color: #888;
+   text-decoration: line-through;
+   margin-right: 0.5rem;
+}
