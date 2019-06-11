@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>小米商城</title>
+    <meta charset="utf-8">
+    <link href="./pacture/index.ico" rel="icon" type="image/x-ico">
+    <link rel="stylesheet" href="miall.css" type="text/css">
+    <style type="text/css">
+ 
+    </style>
+	<script type="text/javascript">	
+		function change(name){
+			if (name =='one') {
+				one.style.display='block'
+				two.style.display='none'
+				three.style.display='none'
+				four.style.display='none'
+			}else if (name =='two') {
+				one.style.display='none'
+				two.style.display='block'
+				three.style.display='none'
+				four.style.display='none'
+			}else if (name == 'three') {
+				one.style.display='none'
+				two.style.display='none'
+				three.style.display='block'
+				four.style.display='none'
+			}else if( name == 'four'){
+				one.style.display='none'
+				two.style.display='none'
+				three.style.display='none'
+				four.style.display='block'
+			}
+
+		}
+
+
+		function change1(name){
+	  		if(name == 'hot'){
+	  			hot.style.display='block'
+	  			movie.style.display='none'
+	  			computer.style.display='none'
+	  			household.style.display='none'
+	  		}else if (name =='movie'){
+	  			hot.style.display='none'
+	  			movie.style.display='block'
+	  			computer.style.display='none'
+	  			household.style.display='none'
+	  		}else if (name =='computer'){
+	  			hot.style.display='none'
+	  			movie.style.display='none'
+	  			computer.style.display='block'
+	  			household.style.display='none'
+	  		}else if (name =='household'){
+	  			hot.style.display='none'
+	  			movie.style.display='none'
+	  			computer.style.display='none'
+	  			household.style.display='block'
+	  		}
+
+	  	}
+
+
+	</script>
+</head>
+<body>
+	<div class="site-topbar">
+		<div class="container">
+			<!-- 首页上最开始的黑行左边 -->
+				<div class="topbar-nav">
+		            <a rel="nofollow" href="" >小米商城</a><span class="sep">|</span>
+		            <a rel="nofollow" href="" target="_blank" >MIUI</a><span class="sep">|</span>
+		            <a rel="nofollow" href="" >IoT</a><span class="sep">|</span>
+		            <a rel="nofollow" href="" target="_blank" >云服务</a><span class="sep">|</span>
+		            <a rel="nofollow" href="" target="_blank" >金融</a><span class="sep">|</span>
+		            <a rel="nofollow" href="" target="_blank" >有品</a><span class="sep">|</span>
+		            <a rel="nofollow" href="" target="_blank" >小爱开放平台</a><span class="sep">|</span>
+		            <a rel="nofollow" href="" target="_blank" >企业团购</a><span class="sep">|</span>
+		            <a rel="nofollow" href="" target="_blank" >资质证照</a><span class="sep">|</span>
+		            <a rel="nofollow" href="" target="_blank" >协议规则</a><span class="sep">|</span>
+		            <span class="J_download"><a rel="nofollow" href="" target="_blank" class="J_downloadapp">下载app
+		            	<span class="box">
+		            	<img src="./pacture/code.png" alt="小米商城" width="90" height="90" >
+		            	<div style="" class="box-text">小米商城APP</div>
+		            	</span></a></a><span class="sep">|</span></span>
+		            <a rel="nofollow" href="">Select Region</a>		            
+		        </div>	
+
+
+                <!--  右边购物车 -->
+		        <div class="topbar-cart" id="J_miniCartTrigger">
+		            <a rel="nofollow" class="cart-mini" id="J_miniCartBtn" href=""><i class="iconfont"></i>购物车<span class="cart-mini-num J_cartNum">（0）</span></a>
+		            <div class="cart-menu" id="J_miniCartMenu" style="display: none;"><div class="loading"><div class="loader"></div></div></div>
+		        </div>
+
+
+                <!-- 登录注册按钮 -->
+		       <div class="topbar-info" id="J_userInfo">
+		            	<a rel="nofollow" class="link" href="" >登录</a><span class="sep">|</span>
+		            	<a rel="nofollow" class="link" href="" >注册</a><span class="sep">|</span>
+		            <span class="message">
+		            	<a rel="nofollow" class="J_needAgreement">消息通知<i class="J_miMessageTotal"></i></a>
+		        	</span>
+		        </div>
+
+
+
+
+		</div>
+	</div>
+
+      <!--   --------------------------最右边的绝对定位锚链接--------------------------- -->
+	 <div class="right-bar">
+	        <div class="bar-l">
+	            <div id="J_rightbar_l" style="display: block;">
+	                <ul class="bar-top">     
+	                    <li class="bar-sort bar-sort-qr"> 
+	                        <a href="javascript:;" class="bar-link" > 
+	                        <div class="bar-img"> 
+	                            <img class="original-img" src="./pacture/app1.png" width="30" height="30"  > 
+	                            <img class="hover-img" src="./pacture/app.png"  width="30" height="30" > 
+	                        </div> 
+	                            <p class="bar-text">手机APP</p> 
+	                        <div class="bar-pop">   
+	                        <div class="bar-pop-content"> 
+	                            <img src="./pacture/code.png" class="bar-pop-qr"  width="100" height="100" > 
+	                            <p class="bar-pop-text">手机扫一扫<br/>一分赢好礼</p> 
+	                        </div>
+	                            <div class="bar-arrow">
+	                                
+	                                </div> 
+	                            </div> 
+	                        </a> 
+	                    </li>  
+
+
+
+	                    <li class="bar-sort"> 
+	                        <a href="" class="bar-link"> 
+	                            <div class="bar-img"> 
+	                                <img class="original-img" src="./pacture/person1.png"  width="30" height="30" > 
+	                                <img class="hover-img" src="./pacture/person.png"  width="30" height="30" > 
+	                            </div> 
+	                                 <p class="bar-text">个人中心</p>
+	                        </a> 
+	                    </li>
+
+
+	                    <li class="bar-sort"> 
+	                        <a href="" class="bar-link"> 
+	                            <div class="bar-img"> 
+	                                <img class="original-img" src="./pacture/sale1.png"  width="30" height="30" > 
+	                                <img class="hover-img" src="./pacture/sale.png"  width="30" height="30" > 
+	                            </div> 
+	                                <p class="bar-text">售后服务</p> 
+	                        </a> 
+	                    </li>   
+
+
+	                    <li class="bar-sort"> 
+	                        <a href="" class="bar-link"> 
+	                            <div class="bar-img"> 
+	                                <img class="original-img" src="./pacture/server1.png"  width="30" height="30" > 
+	                                <img class="hover-img" src="./pacture/server.png"  width="30" height="30" > 
+	                            </div> 
+	                                <p class="bar-text">联系客服</p> 
+	                        </a> 
+	                    </li>    
+
+
+	                    <li class="bar-sort bar-l-car"> 
+	                        <a href="" class="bar-link" > 
+	                            <div class="bar-img"> 
+	                                <img class="original-img" src="./pacture/shopcart1.png"  width="30" height="30">  
+	                                <img class="hover-img" src="./pacture/shopcart.png"  width="30" height="30" >  
+	                                <span class="bar-car hidden J_barLMum J_homeRightbarCarNum"></span>  
+	                            </div> 
+	                                <p class="bar-text">购物车</p> 
+	                                <div class="pop"></div> 
+	                        </a> 
+	                    </li>    
+	                </ul>
+	            </div>
+	                                
+
+	               <a class="bar-totop bar-sort" href="" style="display: block;">
+                    <div class="bar-img">
+                    <img class="original-img" src="./pacture/totop.png"  width="30" height="30" >
+                    <img class="hover-img" src="./pacture/top.png"  width="30" height="30" >
+                    </div>
+                    <p class="bar-text">回顶部</p>
+                </a>
+	        </div>
+	    </div>
+
+
+	<!--  -=======================================================顶部第二个目录================================= -->
+		<div class="bar_top">
+			<div class="bar_top_logo">
+				<a href="href="//www.mi.com/index.html" target="_blank"><img src="./pacture/mi_logo.png" width="54" height="54"></a>
+				
+			</div>
+			<div class="bar_center">
+			 <ul class="bar_list">
+				<li class="bar_list-1"><a href="">小米手机</a> 
+				  <div class="bar_center-active" >
+					<div class="container" >
+						<ul class="children-list clearfix" id="children-list-phone" >
+			                <li class="first">
+					            <div class="figure figure-thumb">
+					                <a href=""><img src="./pacture/1-1.png"alt="小米9" width="160" height="110"></a>
+					            </div>
+					            <div class="title">
+					            	<a href="">小米9</a>
+					            </div>
+					            	<p class="price">2999元</p>                                    
+					            	<div class="flags"><div class="flag">新品</div></div>                                
+					            </li>
+
+
+					     	<li>
+					            <div class="figure figure-thumb">
+					                <a href="" ><img src="./pacture/1-2.png"  alt="小米9 SE"  width="160" height="110"></a>
+					            </div>
+					            <div class="title"><a href="">小米9 SE</a></div>
+					            <p class="price">1999元</p>                                    
+					            <div class="flags"><div class="flag">新品</div></div>                                
+					        </li>
+
+
+					        <li>
+					            <div class="figure figure-thumb">
+					                <a href="" ><img src="./pacture/1-3.png"  alt="小米8 青春版"  width="160" height="110"></a>
+					            </div>
+					            <div class="title"><a href="" >小米8 青春版</a></div>
+					            <p class="price">1499元</p>                                    
+					           <!--  <div class="flags"><div class="flag">新品</div></div> -->                                
+					        </li>
+
+
+
+					        <li>
+					            <div class="figure figure-thumb">
+					                <a href=""><img src="./pacture/1-4.png" data-src="" alt="小米MIX 3" width="160" height="110"></a>
+					            </div>
+					            <div class="title"><a href="" >小米MIX 3</a></div>
+					            <p class="price">3299元</p>                                    
+					            <!-- <div class="flags"><div class="flag">新品</div></div>  -->                               
+					        </li>
+					                                    
+
+
+					        <li>
+					            <div class="figure figure-thumb">
+					                <a href="" ><img src="./pacture/1-5.png" alt="小米8" width="160" height="110"></a>
+					            </div>
+					            <div class="title"><a href="" >小米8</a></div>
+					            <p class="price">2599元</p>                                                                    
+					        </li>
+
+
+					        <li>
+					            <div class="figure figure-thumb">
+					                <a href="" ><img src="./pacture/1-6.png"  alt="小米Play" width="160" height="110"></a>
+					            </div>
+					            <div class="title"><a href="" >小米Play</a></div>		
+					            <p class="price">1099元</p>                                                                    
+					        </li>
+			        	</ul>
+			    	</div>
+				</div>
+
+			</li>
+				<li class="bar_list-1"><a href="">红米</a>
+				<div class="bar_center-active" >
+					<div class="container" >
+						<ul class="children-list clearfix" id="children-list-phone" >
+			                <li class="first">
+					            <div class="figure figure-thumb">
+					                <a href=""><img src="./pacture/2-1.jpg"alt="Redmi K20 Pro" width="160" height="110"></a>
+					            </div>
+					            <div class="title">
+					            	<a href="">Redmi K20 Pro</a>
+					            </div>
+					            	<p class="price">2499元</p>                                    
+					            	<div class="flags"><div class="flag">新品</div></div>                                
+					            </li>
+
+
+					     	<li>
+					            <div class="figure figure-thumb">
+					                <a href="" ><img src="./pacture/2-2.png"  alt="Redmi K20"  width="160" height="110"></a>
+					            </div>
+					            <div class="title"><a href="">Redmi K20</a></div>
+					            <p class="price">1999元</p>                                    
+					            <div class="flags"><div class="flag">新品</div></div>                                
+					        </li>
+
+
+					        <li>
+					            <div class="figure figure-thumb">
+					                <a href="" ><img src="./pacture/2-3.png"  alt="Redmi 7A"  width="160" height="110"></a>
+					            </div>
+					            <div class="title"><a href="" >Redmi 7A</a></div>
+					            <p class="price">549元</p>                                    
+					            <div class="flags"><div class="flag">新品</div></div>                                
+					        </li>
+
+
+
+					        <li>
+					            <div class="figure figure-thumb">
+					                <a href=""><img src="./pacture/2-4.png" data-src="" alt="Redmi Note7" width="160" height="110"></a>
+					            </div>
+					            <div class="title"><a href="" >Redmi Note7 Pro</a></div>
+					            <p class="price">1599元</p>                                    
+					            <!-- <div class="flags"><div class="flag">新品</div></div>  -->                               
+					        </li>
+					                                    
+
+
+					        <li>
+					            <div class="figure figure-thumb">
+					                <a href="" ><img src="./pacture/2-5.png" alt="Redmi Note7" width="160" height="110"></a>
+					            </div>
+					            <div class="title"><a href="">Redmi Note7</a></div>
+					            <p class="price">999元</p>                                                                    
+					        </li>
+
+
+					        <li>
+					            <div class="figure figure-thumb">
+					                <a href="" ><img src="./pacture/2-2.png" alt="Redmi 7" width="160" height="110"></a>
+					            </div>
+					            <div class="title"><a href="">Redmi 7</a></div>		
+					            <p class="price">699元</p>                                                                    
+					        </li>
+			        	</ul>
+			    	</div>
+				</div>
+
+			
+				</li>
+				<li class="bar_list-1"><a href="">电视</a>
+ 					<div class="bar_center-active" >
+							<div class="container" >
+							<ul class="children-list clearfix" id="children-list-computer" >
+						                <li class="first">
+								            <div class="figure figure-thumb">
+								                <a href="" ><img src="./pacture/3-1.jpg"alt="小米壁画电视 65英寸" width="160" height="110"></a>
+								            </div>
+								            <div class="title">
+								            	<a href="">小米壁画电视 65英寸</a>
+								            </div>
+								            	<p class="price">6999元</p>                                    
+								            	<div class="flags"><div class="flag">热卖</div></div>                                
+								            </li>
+
+
+								     	<li>
+								            <div class="figure figure-thumb">
+								                <a href="" ><img src="./pacture/4-2.png"  alt="小米全面屏电视E55A"  width="160" height="110"></a>
+								            </div>
+								            <div class="title"><a href="">小米全面屏电视E55A</a></div>
+								            <p class="price">2299元</p>                                    
+								            <div class="flags"><div class="flag">热卖</div></div>                                
+								        </li>
+
+
+								        <li>
+								            <div class="figure figure-thumb">
+								                <a href="" ><img src="./pacture/3-3.png"  alt="小米电视4A 32英寸"  width="160" height="110"></a>
+								            </div>
+								            <div class="title"><a href="" >小米电视4A 32英寸</a></div>
+								            <p class="price">799元</p>                                    
+								            <div class="flags"><div class="flag">热卖</div></div>                                
+								        </li>
+
+
+
+								        <li>
+								            <div class="figure figure-thumb">
+								                <a href=""><img src="./pacture/3-4.jpg" alt="小米电视4A 32英寸" width="160" height="110"></a>
+								            </div>
+								            <div class="title"><a href="" >小米电视4A 55英寸</a></div>
+								            <p class="price">2099元</p>                                    
+								            <div class="flags"><div class="flag">热卖</div></div>                                
+								        </li>
+								                                    
+
+
+								        <li>
+								            <div class="figure figure-thumb">
+								                <a href="" ><img src="./pacture/3-5.jpg" alt="小米电视4A 65英寸" width="160" height="110"></a>
+								            </div>
+								            <div class="title"><a href="" >小米电视4A 65英寸</a></div>
+								            <p class="price">2849元</p>  
+								            <div class="flags"><div class="flag">热卖</div></div>                                                                   
+								        </li>
+
+
+								        <li>
+								            <div class="figure figure-thumb">
+								                <a href="" ><img src="./pacture/3-6.png"  alt="查看全部" width="160" height="110"></a>
+								            </div>
+								            <div class="title"><a href="" >查看全部</a></div>		
+								            <p class="price">小米电视</p>                                                                    
+								        </li>
+						        	</ul>
+						        </div>
+						    </div>
+				</li>	
+				<li class="bar_list-1" ><a href="">笔记本</a>
+					 <div class="bar_center-active" >
+							<div class="container" >
+							<ul class="children-list clearfix" id="children-list-computer" >
+						                <li class="first">
+								            <div class="figure figure-thumb">
+								                <a href="" ><img src="./pacture/4-1.png"alt="小米笔记本 Air 12.5" width="160" height="110"></a>
+								            </div>
+								            <div class="title">
+								            	<a href="">小米笔记本 Air 12.5"</a>
+								            </div>
+								            	<p class="price">3599元</p>                                    
+								            	<div class="flags"><div class="flag">新品</div></div>                                
+								            </li>
+
+
+								     	<li>
+								            <div class="figure figure-thumb">
+								                <a href="" ><img src="./pacture/4-2.png"  alt="小米笔记本 Air 13.3"  width="160" height="110"></a>
+								            </div>
+								            <div class="title"><a href="">小米笔记本 Air 13.3"</a></div>
+								            <p class="price">4799元</p>                                    
+								            <div class="flags"><div class="flag">新品</div></div>                                
+								        </li>
+
+
+								        <li>
+								            <div class="figure figure-thumb">
+								                <a href="" ><img src="./pacture/4-3.png"  alt="小米笔记本 15.6"  width="160" height="110"></a>
+								            </div>
+								            <div class="title"><a href="" >小米笔记本 15.6"</a></div>
+								            <p class="price">3399元</p>                                    
+								            <div class="flags"><div class="flag">新品</div></div>                                
+								        </li>
+
+
+
+								        <li>
+								            <div class="figure figure-thumb">
+								                <a href=""><img src="./pacture/4-4.png" data-src="" alt="小米笔记本 Pro 15.6" width="160" height="110"></a>
+								            </div>
+								            <div class="title"><a href="" >小米笔记本 Pro 15.6"</a></div>
+								            <p class="price">5599元</p>                                    
+								            <div class="flags"><div class="flag">新品</div></div>                                
+								        </li>
+								                                    
+
+
+								        <li>
+								            <div class="figure figure-thumb">
+								                <a href="" ><img src="./pacture/4-5.png" alt="小米游戏本" width="160" height="110"></a>
+								            </div>
+								            <div class="title"><a href="" >小米游戏本</a></div>
+								            <p class="price">6499元</p>                                                                    
+								        </li>
+
+
+								        <li>
+								            <div class="figure figure-thumb">
+								                <a href="" ><img src="./pacture/4-6.png"  alt="小米平板" width="160" height="110"></a>
+								            </div>
+								            <div class="title"><a href="" >小米平板</a></div>		
+								            <p class="price">1099元起</p>                                                                    
+								        </li>
+						        	</ul>
+						        </div>
+						    </div>
+
+				</li>
+				<li class="bar_list-1"><a href="">家电</a></li>
+				<li class="bar_list-1"><a href="">新品</a></li>
+				<li class="bar_list-1"><a href="">路由器</a></li>
+				<li class="bar_list-1"><a href="">智能硬件</a></li>
+				
+
+				<li class="bar_list-1"><a href="">服务</a></li>
+				<li class="bar_list-1"><a href="">社区</a></li>	
+			</ul>
+			</div>
+			<div class="bar_right">
+				<div>
+					<form class="search-form">
+						<input type="search" name="keyword" id="search" class="search-text">
+						<input type="submit" name="search-btn" value="" class="search-btn">
+						<div class="search-hot"><a href="">小米9</a> <a href="">小米9 SE</a> </div>
+						<div class="keyword-list" >
+							<ul class="result-list">
+								<li><a href="">小米6X </a><span>约有6件</span> </li>
+								<li><a href="">小米MIX 2S</a><span>约有6件</span></li>
+								<li><a href="">黑鲨游戏手机</a><span>约有6件</span></li>
+								<li><a href="">红米Note 5</a><span>约有6件</span></li>
+								<li><a href="">红米5A</a><span>约有6件</span></li>
+								<li><a href="">小米电视4C</a><span>约有6件</span></li>
+								<li><a href="">电视32英寸</a><span>约有6件</span></li>
+								<li><a href="">笔记本pro</a><span>约有6件</span></li>
+								<li><a href="">空气净化器</a><span>约有6件</span></li>
+								<li><a href="">净水器</a><span>约有6件</span></li>
+							</ul>
+						</div>	
+					</form>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+
+
+
+<!-- -========================================================中间目录--======================================================== -->
+
+<div class="site-categroy">
+		<ul class="content">
+		<!-- 			.children{
+				position: absolute;
+			    left: 234px;
+			    top: 0;
+			    /*z-index: 24;*/
+			    height: 448px;
+			    border: 1px solid #e0e0e0;
+			    border-left: 0;
+			    background: #fff;
+			    /*-webkit-box-shadow: 0 8px 16px rgba(0,0,0,0.18);*/
+			    box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+		}
+		.children-col-4 .children-list-col {
+				    width: 248px;
+		}
+		.children-list-col {
+				    float: left;
+				    width: 265px;
+		}
+		 .children-list {
+		    height: 458px;
+		    margin: 0;
+		    padding: 2px 0;
+		    list-style-type: none;
+		}
+
+
+		 .children-list li {
+		    position: relative;
+		    float: left;
+		    width: 265px;
+		    height: 76px;
+		}
+
+		.children-list .link{
+		    display: block;
+		    padding: 18px 20px;
+		    line-height: 40px;
+		    color: #333;
+		 
+		   
+		}
+		.children-list .thumb {
+		    margin-right: 12px;
+		    vertical-align: middle;
+		}
+		 .children-list .text {
+		    line-height: 40px;
+		} -->
+			<!-- 			<div class="children clearfix children-col-4">
+						<ul class="children-list children-list-col children-list-col-1">
+							<li> <a class="link" children-col-4href="">
+								<img class="thumb" src="./pacture/mi9.png" width="40" height="40" alt="小米9">
+								<span class="text">小米9</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/mi9se.png" width="40" height="40" alt="小米9 SE">
+								<span class="text">小米9 SE</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/mix3.png" width="40" height="40" alt="小米MIX 3">
+								<span class="text">小米MIX 3</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/qingchun.png" width="40" height="40" alt="小米8 青春版">
+								<span class="text">小米8 青春版</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/pingmu.png" width="40" height="40" alt="小米8 屏幕指纹版">
+								<span class="text">小米8 屏幕指纹版</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/mi8.png" width="40" height="40" alt="小米8">
+								<span class="text">小米8</span></a> </li>
+						</ul></div>
+
+
+						<ul class="children-list children-list-col children-list-col-2">
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/mi8se.png" width="40" height="40" alt="小米8 SE">
+								<span class="text">小米8 SE</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/mix2s.png"width="40" height="40" alt="小米MIX 2S">
+								<span class="text">小米MIX 2S</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/max3.png"width="40" height="40" alt="小米Max 3">
+								<span class="text">小米Max 3</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="/pacture/mi6x.jpg"width="40" height="40" alt="小米6X">
+								<span class="text">小米6X</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/black1.jpg"width="40" height="40" alt="黑鲨游戏手机2">
+								<span class="text">黑鲨游戏手机2</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/black2.png"width="40" height="40" alt="黑鲨游戏手机Hello">
+								<span class="text">黑鲨游戏手机Hello</span></a> </li>
+						</ul></div>
+
+
+						<ul class="children-list children-list-col children-list-col-3">
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/redmi.png"width="40" height="40" alt=" Redmi 7">
+								<span class="text"> Redmi 7</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/redminote7.jpg"width="40" height="40" alt=" Redmi Note 7 Pro">
+								<span class="text"> Redmi Note 7 Pro</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/note7.png"width="40" height="40" alt="Redmi Note 7">
+								<span class="text">Redmi Note 7</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/redmi6x.png"width="40" height="40" alt="红米6">
+								<span class="text">红米6</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/redmi6A.png"width="40" height="40" alt="红米6A">
+								<span class="text">小米9</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/redminote5.png"width="40" height="40" alt="红米Note 5<">
+								<span class="text">红米Note 5</span></a> </li>
+						</ul></div>
+
+
+
+						<ul class="children-list children-list-col children-list-col-4">
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/4G.jpg"width="40" height="40" alt=" 移动4G+专区">
+								<span class="text">移动4G+专区</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/compare.jpg"width="40" height="40" alt=" 对比手机">
+								<span class="text">对比手机</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/card1.jpg"width="40" height="40" alt="米粉卡 日租卡">
+								<span class="text">米粉卡 日租卡</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/card2.jpg"width="40" height="40" alt="小米移动 电话卡 ">
+								<span class="text">小米移动 电话卡</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/weixiu.png"width="40" height="40" alt="手机上门维修">
+								<span class="text">手机上门维修</span></a> </li>
+							<li> <a class="link" href="">
+								<img class="thumb" src="./pacture/yunfuwu.jpg"width="40" height="40" alt="云服务空间月卡">
+								<span class="text">云服务空间月卡</span></a> </li>
+						</ul></div>
+					
+	</div> -->
+			 <li class="row" onmouseover="change(&#39;one&#39;)"><a href="" class="function">手机 电话卡</a></li>
+			<li class="row" onmouseover="change(&#39;two&#39;)"><a href="" class="function">电视 盒子</a></li>
+			<li class="row" onmouseover="change(&#39;three&#39;)")><a href="" class="function">笔记本 平板</a></li>
+			<li class="row" onmouseover="change(&#39;four&#39;)"><a href="" class="function">家电 插线板</a></li>
+			<li class="row" onmouseover="change(&#39;five&#39;)"><a href="" class="function">出行 穿戴</a></li>
+			<li class="row" onmouseover="change(&#39;six&#39;)"><a href="" class="function">智能 路由器</a></li>
+			<li class="row" onmouseover="change(&#39;seven&#39;)"><a href="" class="function">电源 配件</a></li>
+			<li class="row" onmouseover="change(&#39;eight&#39;)"><a href="" class="function">健康 儿童</a></li>
+			<li class="row" onmouseover="change(&#39;nine&#39;)"><a href="" class="function">耳机 音响</a></li>
+			<li class="row" onmouseover="change(&#39;ten&#39;)"><a href="" class="function">生活 箱包</a></li>
+		</ul>
+
+
+		<div class="frame-right">
+		<div class="container1" >
+			<ul class="brick-item-content" id="one" style="display: black;">
+				<li class="option">
+					<span class="font1"> <a href="" class="function2"><img src="./pacture/mi9.png" width="40" height="40">小米9</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font1"><a href="" class="function2"><img src="./pacture/mi8se.png" width="40" height="40">小米8 SE</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font1"> <a href="" class="function2"><img src="./pacture/redmi.png" width="40" height="40"> Redmi 7</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font1"><a href="" class="function2"><img src="./pacture/4G.jpg" width="40" height="40"> 移动4G+专区</a></span> 
+				</li>
+				<li class="option">
+					<span class="font2"><a href="" class="function2"><img src="./pacture/mi9se.png" width="40" height="40">小米9 SE</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font2"><a href="" class="function2"><img src="./pacture/mix2s.png" width="40" height="40">小米MIX 2S</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font2"> <a href="" class="function2"><img src="./pacture/redminote7.jpg" width="40" height="40"> Redmi Note 7 Pro</a></span>
+					<span class="font2"><a href="" class="function2"><img src="./pacture/compare.jpg" width="40" height="40"> 对比手机</a></span> 
+				</li>
+				<li class="option">
+					<span class="font3"><a href="" class="function2"><img src="./pacture/mix3.png" width="40" height="40">小米MIX 3</a></span>
+					<span class="font3"><a href="" class="function2"><img src="./pacture/max3.png" width="40" height="40">小米Max 3</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font3"><a href="" class="function2"><img src="./pacture/note7.png" width="40" height="40">Redmi Note 7</a></span>&nbsp;
+					<span class="font3"><a href="" class="function2"><img src="./pacture/card1.jpg" width="40" height="40">米粉卡 日租卡</a></span>
+				</li>
+				<li class="option">
+					<span class="font4"><a href="" class="function2"><img src="./pacture/qingchun.png" width="40" height="40">小米8 青春版</a></span>
+					<span class="font4"><a href="" class="function2"><img src="./pacture/mi6x.jpg" width="40" height="40">小米6X</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font4"><a href="" class="function2"><img src="./pacture/redmi6x.png" width="40" height="40">红米6</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font4"><a href="" class="function2"><img src="./pacture/card2.jpg" width="40" height="40">小米移动 电话卡 </a></span>
+				</li>
+				<li class="option">
+					<span class="font5"><a href="" class="function2"><img src="./pacture/pingmu.png" width="40" height="40">小米8 屏幕指纹版</a></span>
+					<span class="font5"><a href="" class="function2"><img src="./pacture/black1.jpg" width="40" height="40"><span>黑鲨游戏手机2</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font5"><a href="" class="function2"><img src="./pacture/redmi6A.png" width="40" height="40"> <span>红米6A</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font5"><a href="" class="function2"><img src="./pacture/weixiu.png" width="40" height="40"> <span>手机上门维修</a></span>
+				</li>
+				<li class="option">
+					<span class="font6"><a href="" class="function2"><img src="./pacture/mi8.png" width="40" height="40">小米8</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font6"><a href="" class="function2"><img src="./pacture/black2.png" width="40" height="40">黑鲨游戏手机 Hello</a></span> 
+					<span class="font6"><a href="" class="function2"><img src="./pacture/redminote5.png" width="40" height="40">红米Note 5</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font6"><a href="" class="function2"><img src="./pacture/yunfuwu.jpg" width="40" height="40"> 云服务空间月卡</a></span> 
+				</li>
+			</ul>
+			<ul class="brick-item-content" id="two" style="display: none;">
+				<li class="option">
+					<span class="font11"> <a href="" class="function2"><img src="./pacture1/1.jpg" width="40" height="40">米家激光投影电视</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font11"><a href="" class="function2"><img src="./pacture1/2.png" width="40" height="40">小米电视4A 50英寸</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font11"> <a href="" class="function2"><img src="./pacture1/3.png" width="40" height="40">小米电视4C 43英寸</a></span>
+					<span class="font11"><a href="" class="function2"><img src="./pacture1/4.png" width="40" height="40"> 小米电视4A 55英寸</a></span> 
+				</li>
+				<li class="option">
+					<span class="font22"><a href="" class="function2"><img src="./pacture1/5.jpg" width="40" height="40">小米壁画电视 65英寸</a></span>&nbsp;&nbsp;&nbsp;
+					<span class="font22"><a href="" class="function2"><img src="./pacture1/6.png" width="40" height="40">小米电视4A 55英寸</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font22"> <a href="" class="function2"><img src="./pacture1/7.png" width="40" height="40">小米电视4C 50英寸</a></span>&nbsp;&nbsp;&nbsp;
+					<span class="font22"><a href="" class="function2"><img src="./pacture1/8.jpg" width="40" height="40">小米电视4 65英寸旗舰版</a></span> 
+				</li>
+				<li class="option">
+					<span class="font33"><a href="" class="function2"><img src="./pacture1/9.jpg" width="40" height="40">小米全面屏电视</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font33"><a href="" class="function2"><img src="./pacture1/10.png" width="40" height="40">小米电视5A 58英寸</a></span>
+					<span class="font33"><a href="" class="function2"><img src="./pacture1/11.jpg" width="40" height="40">小米电视4C 55英寸</a></span>
+					<span class="font33"><a href="" class="function2"><img src="./pacture1/12.jpg" width="40" height="40">小米电视4 75英寸</a></span>
+				</li>
+				<li class="option">
+					<span class="font44"><a href="" class="function2"><img src="./pacture1/13.png" width="40" height="40">小米电视4A 32英寸</a></span>&nbsp;&nbsp;&nbsp;
+					<span class="font44"><a href="" class="function2"><img src="./pacture1/14.png" width="40" height="40">小米电视4A 65英寸</a></span>
+					<span class="font44"><a href="" class="function2"><img src="./pacture1/15.png" width="40" height="40">小米电视4X 43英寸</a></span>
+					<span class="font44"><a href="" class="function2"><img src="./pacture1/16.png" width="40" height="40">小米电视4S</a></span>
+				</li>
+				<li class="option">
+					<span class="font55"><a href="" class="function2"><img src="./pacture1/17.png" width="40" height="40">小米电视4A 43英寸青春版</a></span>
+					<span class="font55"><a href="" class="function2"><img src="./pacture1/18.png" width="40" height="40">小米电视4C 32英寸</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font55"><a href="" class="function2"><img src="./pacture1/19.png" width="40" height="40">小米电视4X 55英寸</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font55"><a href="" class="function2"><img src="./pacture1/20.png" width="40" height="40">小米电视 体育版</a></span>
+				</li>
+				<li class="option">
+					<span class="font66"><a href="" class="function2"><img src="./pacture1/21.jpg" width="40" height="40">小米电视4A 49英寸</a></span> 
+					<span class="font66"><a href="" class="function2"><img src="./pacture1/22.jpg" width="40" height="40">小米电视4C 40英寸</a></span> 
+					<span class="font66"><a href="" class="function2"><img src="./pacture1/23.jpg" width="40" height="40">小米电视4X 65英寸</a></span> 
+					<span class="font66"><a href="" class="function2"><img src="./pacture1/24.jpg" width="40" height="40"> 小米盒子</a></span> 
+				</li>
+			</ul>
+
+			<ul class="brick-item-content" id="three" style="display: none;">
+				<li class="option">
+					<span class="font1"> <a href="" class="function2"><img src="./pacture/mi9.png" width="40" height="40">小米9</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font1"><a href="" class="function2"><img src="./pacture/mi8se.png" width="40" height="40">小米8 SE</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font1"> <a href="" class="function2"><img src="./pacture/redmi.png" width="40" height="40"> Redmi 7</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font1"><a href="" class="function2"><img src="./pacture/4G.jpg" width="40" height="40"> 移动4G+专区</a></span> 
+				</li>
+				<li class="option">
+					<span class="font2"><a href="" class="function2"><img src="./pacture/mi9se.png" width="40" height="40">小米9 SE</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font2"><a href="" class="function2"><img src="./pacture/mix2s.png" width="40" height="40">小米MIX 2S</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font2"> <a href="" class="function2"><img src="./pacture/redminote7.jpg" width="40" height="40"> Redmi Note 7 Pro</a></span>
+					<span class="font2"><a href="" class="function2"><img src="./pacture/compare.jpg" width="40" height="40"> 对比手机</a></span> 
+				</li>
+				<li class="option">
+					<span class="font3"><a href="" class="function2"><img src="./pacture/mix3.png" width="40" height="40">小米MIX 3</a></span>
+					<span class="font3"><a href="" class="function2"><img src="./pacture/max3.png" width="40" height="40">小米Max 3</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font3"><a href="" class="function2"><img src="./pacture/note7.png" width="40" height="40">Redmi Note 7</a></span>&nbsp;
+					<span class="font3"><a href="" class="function2"><img src="./pacture/card1.jpg" width="40" height="40">米粉卡 日租卡</a></span>
+				</li>
+				<li class="option">
+					<span class="font4"><a href="" class="function2"><img src="./pacture/qingchun.png" width="40" height="40">小米8 青春版</a></span>
+					<span class="font4"><a href="" class="function2"><img src="./pacture/mi6x.jpg" width="40" height="40">小米6X</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font4"><a href="" class="function2"><img src="./pacture/redmi6x.png" width="40" height="40">红米6</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font4"><a href="" class="function2"><img src="./pacture/card2.jpg" width="40" height="40">小米移动 电话卡 </a></span>
+				</li>
+				<li class="option">
+					<span class="font5"><a href="" class="function2"><img src="./pacture/pingmu.png" width="40" height="40">小米8 屏幕指纹版</a></span>
+					<span class="font5"><a href="" class="function2"><img src="./pacture/black1.jpg" width="40" height="40"><span>黑鲨游戏手机2</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font5"><a href="" class="function2"><img src="./pacture/redmi6A.png" width="40" height="40"> <span>红米6A</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font5"><a href="" class="function2"><img src="./pacture/weixiu.png" width="40" height="40"> <span>手机上门维修</a></span>
+				</li>
+				<li class="option">
+					<span class="font6"><a href="" class="function2"><img src="./pacture/mi8.png" width="40" height="40">小米8</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font6"><a href="" class="function2"><img src="./pacture/black2.png" width="40" height="40">黑鲨游戏手机 Hello</a></span> 
+					<span class="font6"><a href="" class="function2"><img src="./pacture/redminote5.png" width="40" height="40">红米Note 5</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font6"><a href="" class="function2"><img src="./pacture/yunfuwu.jpg" width="40" height="40"> 云服务空间月卡</a></span> 
+				</li>
+			</ul>
+
+			<ul class="brick-item-content" id="four" style="display: none;">
+				<li class="option">
+					<span class="font11"> <a href="" class="function2"><img src="./pacture1/1.jpg" width="40" height="40">米家激光投影电视</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font11"><a href="" class="function2"><img src="./pacture1/2.png" width="40" height="40">小米电视4A 50英寸</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font11"> <a href="" class="function2"><img src="./pacture1/3.png" width="40" height="40">小米电视4C 43英寸</a></span>
+					<span class="font11"><a href="" class="function2"><img src="./pacture1/4.png" width="40" height="40"> 小米电视4A 55英寸</a></span> 
+				</li>
+				<li class="option">
+					<span class="font22"><a href="" class="function2"><img src="./pacture1/5.jpg" width="40" height="40">小米壁画电视 65英寸</a></span>&nbsp;&nbsp;&nbsp;
+					<span class="font22"><a href="" class="function2"><img src="./pacture1/6.png" width="40" height="40">小米电视4A 55英寸</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font22"> <a href="" class="function2"><img src="./pacture1/7.png" width="40" height="40">小米电视4C 50英寸</a></span>&nbsp;&nbsp;&nbsp;
+					<span class="font22"><a href="" class="function2"><img src="./pacture1/8.jpg" width="40" height="40">小米电视4 65英寸旗舰版</a></span> 
+				</li>
+				<li class="option">
+					<span class="font33"><a href="" class="function2"><img src="./pacture1/9.jpg" width="40" height="40">小米全面屏电视</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font33"><a href="" class="function2"><img src="./pacture1/10.png" width="40" height="40">小米电视5A 58英寸</a></span>
+					<span class="font33"><a href="" class="function2"><img src="./pacture1/11.jpg" width="40" height="40">小米电视4C 55英寸</a></span>
+					<span class="font33"><a href="" class="function2"><img src="./pacture1/12.jpg" width="40" height="40">小米电视4 75英寸</a></span>
+				</li>
+				<li class="option">
+					<span class="font44"><a href="" class="function2"><img src="./pacture1/13.png" width="40" height="40">小米电视4A 32英寸</a></span>&nbsp;&nbsp;&nbsp;
+					<span class="font44"><a href="" class="function2"><img src="./pacture1/14.png" width="40" height="40">小米电视4A 65英寸</a></span>
+					<span class="font44"><a href="" class="function2"><img src="./pacture1/15.png" width="40" height="40">小米电视4X 43英寸</a></span>
+					<span class="font44"><a href="" class="function2"><img src="./pacture1/16.png" width="40" height="40">小米电视4S</a></span>
+				</li>
+				<li class="option">
+					<span class="font55"><a href="" class="function2"><img src="./pacture1/17.png" width="40" height="40">小米电视4A 43英寸青春版</a></span>
+					<span class="font55"><a href="" class="function2"><img src="./pacture1/18.png" width="40" height="40">小米电视4C 32英寸</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font55"><a href="" class="function2"><img src="./pacture1/19.png" width="40" height="40">小米电视4X 55英寸</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="font55"><a href="" class="function2"><img src="./pacture1/20.png" width="40" height="40">小米电视 体育版</a></span>
+				</li>
+				<li class="option">
+					<span class="font66"><a href="" class="function2"><img src="./pacture1/21.jpg" width="40" height="40">小米电视4A 49英寸</a></span> 
+					<span class="font66"><a href="" class="function2"><img src="./pacture1/22.jpg" width="40" height="40">小米电视4C 40英寸</a></span> 
+					<span class="font66"><a href="" class="function2"><img src="./pacture1/23.jpg" width="40" height="40">小米电视4X 65英寸</a></span> 
+					<span class="font66"><a href="" class="function2"><img src="./pacture1/24.jpg" width="40" height="40"> 小米盒子</a></span> 
+				</li>
+			</ul>
+
+
+
+
+<!-- ===========================================中间手机布局================================================================ -->
+  		<div class="page-main home-main">
+  			<div class="container">
+  				<div class="mi_phone">
+  					<div class="box-hd">
+						<h2 class="title">手机</h2>
+						<div class="more"><a href="" target="_blank" onclick="" class="more-link">查看全部</a><i class="iconfont"></i></div>
+					</div>
+
+						<div class="mi_center">
+							<div class="row1">
+								<div class="span_left">
+									<ul class="mi-black">
+										<li class="brick-item-1 brick-item-active" style="margin-left: -22px;">
+											<a href=""  target="_blank" onclick="" class="black"><img src="./pacture/miblack.jpg" alt="黑鲨手机"></a>
+										</li>
+									</ul>
+								</div>
+
+
+								<!-- 右边八个手机 -->
+						
+
+						<div class="span_right">
+							<ul class="brick-list">
+
+									<li class="brick-item brick-item-m brick-item-m-2" > 
+										<div class="figure figure-img"> <a class="exposure" href="" onclick=""> 
+										<img src="./pacture/mi9.jpg" width="160" height="160" alt="小米9 6GB+128GB"> </a> 
+										</div> 
+										<h3 class="title"><a href=""  onclick="">小米9 6GB+128GB</a></h3>
+									    <p class="desc">骁龙855，索尼4800万超广角微距三摄</p>
+									    <p class="price"> <span class="num">2999</span>元</p>
+									    <div class="flag flag-new">新品</div>  </li>
+									</li>
+									<li class="brick-item brick-item-m brick-item-m-2">
+									    <div class="figure figure-img"> 
+										<a class="exposure" href="" onclick=""> 
+										<img src="./pacture/mi9SE.jpg" width="160" height="160" alt="小米9 SE 6GB+64GB"> </a> 
+										</div> 
+										<h3 class="title"><a href=""  onclick="">小米9 SE 6GB+64GB</a></h3>
+									    <p class="desc">索尼4800万超广角三摄,骁龙712</p>
+									    <p class="price"> <span class="num">1999</span>元</p>
+									    <div class="flag flag-new">新品</div>  </li>
+									</li>
+									<li class="brick-item brick-item-m brick-item-m-2">
+										    <div class="figure figure-img"> 
+											<a class="exposure" href="" onclick=""> 
+											<img src="./pacture/Redmi Note7.jpg" width="160" height="160" alt="Redmi Note 7 3GB+32GB"> </a> 
+											</div> 
+											<h3 class="title"><a href=""  onclick="">Redmi Note 7 3GB+32GB</a></h3>
+										    <p class="desc">4800万拍照千元机，18个月超长质保</p>
+										    <p class="price"> <span class="num">999</span>元</p>
+										    <div class="flag flag-new">新品</div>  </li>
+									</li>
+										<li class="brick-item brick-item-m brick-item-m-2">
+										    <div class="figure figure-img"> 
+											<a class="exposure" href="" onclick=""> 
+											<img src="./pacture/小米play.png" width="160" height="160" alt="小米play 4GB+64GB"> </a> 
+											</div> 
+											<h3 class="title"><a href=""  onclick="">小米play 4GB+64GB</a></h3>
+										    <p class="desc">小水滴全面屏，后置1200万 AI 双摄</p>
+										    <p class="price"> <span class="num">1099</span>元</p>
+										    <div class="flag flag-new">新品</div>  </li>
+									</li>
+										<li class="brick-item brick-item-m brick-item-m-2">
+										    <div class="figure figure-img"> 
+											<a class="exposure" href="" onclick=""> 
+											<img src="./pacture/小米8.jpg" width="160" height="160" alt="小米8 青春版 6GB+64GB"> </a> 
+											</div> 
+											<h3 class="title"><a href=""  onclick="">小米8 青春版 6GB+64GB</a></h3>
+										    <p class="desc">潮流镜面渐变色，2400万自拍旗舰</p>
+										    <p class="price"> <span class="num">1499</span>元<del><span class="num">1699</span>元</del></p>
+										    <div class="flag flag-saleoff">减 200 元</div></li>
+									</li>
+									<li class="brick-item brick-item-m brick-item-m-2">
+										    <div class="figure figure-img"> 
+											<a class="exposure" href="" onclick=""> 
+											<img src="./pacture/小米8SE.jpg" width="160" height="160" alt="小米8 SE 6GB+64GB"> </a> 
+											</div> 
+											<h3 class="title"><a href=""  onclick="">小米8 SE 6GB+64GB</a></h3>
+										    <p class="desc">三星 AMOLED 全面屏 骁龙710</p>
+										    <p class="price"> <span class="num">1599</span>元  <del><span class="num">1999</span>元</del></p>
+										    <div class="flag flag-saleoff">   享8折  </div>
+									</li>
+									<li class="brick-item brick-item-m brick-item-m-2">
+										    <div class="figure figure-img"> 
+											<a class="exposure" href="" onclick=""> 
+											<img src="./pacture/小米6X.jpg" width="160" height="160" alt="小米6X 6GB+128GB"> </a> 
+											</div> 
+											<h3 class="title"><a href=""  onclick="">小米6X 6GB+128GB</a></h3>
+										    <p class="desc">轻薄美观的拍照手机</p>
+										    <p class="price"> <span class="num">1599</span>元  <del><span class="num">1999</span>元</del>  </p>
+										    <div class="flag flag-saleoff">   享8折  </div>
+									</li>
+									<li class="brick-item brick-item-m brick-item-m-2">
+										    <div class="figure figure-img"> 
+											<a class="exposure" href="" onclick=""> 
+											<img src="./pacture/红米6A.jpg" width="160" height="160" alt="红米6A 2GB+16GB"> </a> 
+											</div> 
+											<h3 class="title"><a href=""  onclick="">红米6A 2GB+16GB</a></h3>
+										    <p class="desc">12nm高性能处理器，1300万高清相机</p>
+										    <p class="price"> <span class="num">549</span>元  <del><span class="num">599</span>元</del>  </p>
+										    <div class="flag flag-saleoff">    减 50 元  </div>
+									</li>
+							</ul>
+						</div>
+
+
+
+							
+							</div>
+						</div>
+  					</div>
+  			
+
+
+
+
+				<div class="box" >
+					<div class="box-hd">
+						<h2 class="title1">家电</h2>
+						<div class="more">
+							<ul class="tab-list J-brickTabSwitch">
+								<li class="function" onmouseover="change1(&#39;hot&#39;)">热门</li>
+								<li class="function" onmouseover="change1(&#39;movie&#39;)">电影影音</li>
+								<li class="function" onmouseover="change1(&#39;computer&#39;)">电脑</li>
+								<li class="function" onmouseover="change1(&#39;household&#39;)">家居</li>
+							</ul>
+						</div>
+					</div>
+
+				<!-- ===	<div class="mi_center"> -->
+					<div class="row2">
+						<div class="span-left">
+							<ul class="mi-black">
+								<li class="	 brick-item-1 brick-item-active">
+									<a href=""  target="_blank" onclick=""><img src="./pacture/water.jpg" alt></a>
+								</li>
+								<li class="page">
+									<a href="" target="_blank"><img src="./pacture/robot.jpg" alt=""></a>
+								</li>
+							</ul>
+						</div>
+
+					<!-- 右边八个手机 -->
+						<div class="span_right">
+							<ul class="brick-list tab-content clearfix tab-content-hide" id="hot" style="display: block;">
+									<li class="brick-item brick-item-m brick-item-m-2"  > 
+										<div class="figure figure-img"> <a class="exposure" href="" onclick=""> 
+										<img src="./pacture/washing.jpg" width="160" height="160" alt="米家互联网洗烘一体机10kg"> </a> 
+										</div> 
+										<h3 class="title"><a href=""  onclick="">米家互联网洗烘一体机10kg</a></h3>
+						<!-- 简介 -->    <!-- <p class="desc"></p> -->
+									    <p class="price"> <span class="num">1999</span>元<del><span class="num">&nbsp;2199</span>元</del> </p>
+									    <div class="flag flag-saleoff">减 200 元</div></li>
+								</li>
+								<li class="brick-item brick-item-m brick-item-m-2">
+									    <div class="figure figure-img"> 
+										<a class="exposure" href="" onclick=""> 
+										<img src="./pacture/air.jpg" width="160" height="160" alt="米家互联网空调(一级能效)"> </a> 
+										</div> 
+										<h3 class="title"><a href=""  onclick="">米家互联网空调(一级能效)</a></h3>
+									    <!-- <p class="desc">索尼4800万超广角三摄,骁龙712</p> -->
+									    <p class="price"> <span class="num">2299</span>元<del><span class="num">&nbsp;2699</span>元</p>
+									    <div class="flag flag-saleoff">减 400 元</div></li>
+								</li>
+								<li class="brick-item brick-item-m brick-item-m-2">
+									    <div class="figure figure-img"> 
+										<a class="exposure" href="" onclick=""> 
+										<img src="./pacture/MX110.png" width="160" height="160" alt="15.6''笔记本 i5 4G MX110"> </a> 
+										</div> 
+										<h3 class="title"><a href=""  onclick="">15.6''笔记本 i5 4G MX110</a></h3>
+									    <!-- <p class="desc">4800万拍照千元机，18个月超长质保</p> -->
+									    <p class="price"> <span class="num">4199</span>元</p>
+									    <div class="flag flag-new">新品</div>  </li>
+								</li>
+									<li class="brick-item brick-item-m brick-item-m-2">
+									    <div class="figure figure-img"> 
+										<a class="exposure" href="" onclick=""> 
+										<img src="./pacture/13.3Air.jpg" width="160" height="160" alt="13.3''小米笔记本Air 四核i7 8G 256G MX150 银色"> </a> 
+										</div> 
+										<h3 class="title"><a href=""  onclick="">13.3''小米笔记本Air 四核i7 8G 256G MX150 银色</a></h3>
+									   <!--  <p class="desc">小水滴全面屏，后置1200万 AI 双摄</p> -->
+									    <p class="price"> <span class="num">5999</span>元</p>
+									    <!-- <div class="flag flag-new">新品</div>  </li> -->
+								</li>
+									<li class="brick-item brick-item-m brick-item-m-2">
+									    <div class="figure figure-img"> 
+										<a class="exposure" href="" onclick=""> 
+										<img src="./pacture/pro.png" width="160" height="160" alt="米家空气净化器Pro"> </a> 
+										</div> 
+										<h3 class="title"><a href=""  onclick="">米家空气净化器Pro</a></h3>
+									    <p class="desc">OLED 显示屏幕/激光颗粒物传感器</p>
+									    <p class="price"> <span class="num">1499</span>元</p>
+									   <!--  <div class="flag flag-saleoff">减 200 元</div></li> -->
+								</li>
+								<li class="brick-item brick-item-m brick-item-m-2">
+									    <div class="figure figure-img"> 
+										<a class="exposure" href="" onclick=""> 
+										<img src="./pacture/kettle.jpg" width="160" height="160" alt="米家热水壶"> </a> 
+										</div> 
+										<h3 class="title"><a href=""  onclick="">米家热水壶</a></h3>
+									    <p class="desc">一杯水，是一家人的安心</p>
+									    <p class="price"> <span class="num">99</span>元 </p>
+									    <!-- <div class="flag flag-saleoff">   享8折  </div> -->
+								</li>
+								<li class="brick-item brick-item-m brick-item-m-2">
+									    <div class="figure figure-img"> 
+										<a class="exposure" href="" onclick=""> 
+										<img src="./pacture/led.png" width="160" height="160" alt="米家LED吸顶灯"> </a> 
+										</div> 
+										<h3 class="title"><a href=""  onclick="">米家LED吸顶灯</a></h3>
+									    <p class="desc">用光线还原理想生活</p>
+									    <p class="price"> <span class="num">399</span>元    </p>
+									   <!--  <div class="flag flag-saleoff">   享8折  </div> -->
+								</li>
+								<li class="brick-item brick-item-s brick-item-m-2">
+									    <div class="figure figure-img" > 
+										<a class="exposure" href="" onclick=""> 
+										<img src="./pacture/water2.jpg" width="80" height="80" alt="小米净水器"></a> 
+										</div> 
+										<h3 class="title"><a href=""  onclick="">小米净水器</a></h3>
+									    <p class="price"> <span class="num">1999</span>元 </p>  
+								</li>
+								<li class="brick-item brick-item-s" style="    margin-top: 20px;">
+										<div class="figure figure-more">
+										<a href="" target="_blank"  onclick=""><i class="iconfont">-></i></a>
+									    </div>
+									    <a class="more" href="" target="_blank"  onclick="">浏览更多
+									   	<small>热门</small>
+									    </a>
+								</li>
+							</ul>
+							
+	<ul class="brick-list tab-content clearfix tab-content-hide" id="movie" style="display: none;">
+							
+								<li class="brick-item brick-item-m brick-item-m-2" > 
+									<div class="figure figure-img"> <a class="exposure" href="" onclick=""> 
+									<img src="./pacture/TV65.jpg" width="160" height="160" alt="小米壁画电视 65英寸"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米壁画电视 65英寸</a></h3>
+					<!-- 简介 -->    <!-- <p class="desc"></p> -->
+								    <p class="price"> <span class="num">6999</span>元</p>
+								    <div class="flag flag-new">新品</div></li>
+							</li>
+							<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/TVE55A.jpg" width="160" height="160" alt="小米全面屏电视E55A"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米全面屏电视E55A</a></h3>
+								    
+								    <p class="price"> <span class="num">2499</span>元<del><span class="num">&nbsp;2999</span>元</p>
+								    <div class="flag flag-new">新品</div></li>
+							</li>
+							<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/TV4A.jpg" width="160" height="160" alt="小米电视4A 32英寸"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米电视4A 32英寸</a></h3>
+								    <p class="desc">64位四核处理器/1GB+4GB大内存</p>
+								    <p class="price"> <span class="num">799</span>元<del><span class="num">&nbsp;899</span>元</p>
+								    <div class="flag flag-saleoff">减 100 元</div>  </li>
+							</li>
+								<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/TV4C.jpg" width="160" height="160" alt="小米电视4C 50英寸"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米电视4C 50英寸</a></h3>
+								    <p class="desc">4K HDR/人工智能语音</p>
+								    <p class="price"> <span class="num">1799</span>元<del><span class="num">&nbsp;899</span>元 </p>
+								    <div class="flag flag-saleoff">减 300 元</div>  </li>
+							</li>
+								<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/TV4X.jpg" width="160" height="160" alt="小米电视4X 43英寸"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米电视4X 43英寸</a></h3>
+								    <!-- <p class="desc">OLED 显示屏幕/激光颗粒物传感器</p> -->
+								    <p class="price"> <span class="num">1299</span>元<del><span class="num">&nbsp;1499</span>元 </p>
+								    <div class="flag flag-saleoff">减 200 元</div></li>
+							</li>
+							<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/TV4A65.jpg" width="160" height="160" alt="小米电视4A 65英寸"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米电视4A 65英寸</a></h3>
+								   <!--  <p class="desc">一杯水，是一家人的安心</p> -->
+								    <p class="price"> <span class="num">2899</span>元 <del><span class="num">&nbsp;3699</span>元 </p>
+								    <div class="flag flag-saleoff">  享8折  </div>
+							</li>
+							<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/box.jpg" width="160" height="160" alt="小米盒子4"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米盒子4</a></h3>
+								    <!-- <p class="desc">用光线还原理想生活</p> -->
+								    <p class="price"> <span class="num">299</span>元    </p>
+								   <!--  <div class="flag flag-saleoff">   享8折  </div> -->
+							</li>
+							<li class="brick-item brick-item-s brick-item-m-2">
+								    <div class="figure figure-img" > 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/box4C.jpg" width="80" height="80" alt="小米盒子4C"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米盒子4C</a></h3>
+								    <p class="price"> <span class="num">199</span>元 </p>  
+							</li>
+							<li class="brick-item brick-item-s" style="    margin-top: 20px;">
+									<div class="figure figure-more">
+									<a href="" target="_blank"  onclick=""><i class="iconfont">-></i></a>
+								    </div>
+								    <a class="more" href="" target="_blank"  onclick="">浏览更多
+								   	<small>热门</small>
+								    </a>
+							</li>
+						</ul>
+
+	<ul class="brick-list tab-content clearfix tab-content-hide" id="computer" style="display: none;">
+							
+								<li class="brick-item brick-item-m brick-item-m-2" > 
+									<div class="figure figure-img"> <a class="exposure" href="" onclick=""> 
+									<img src="./pacture/1050MAX-Q.jpg" width="160" height="160" alt="15.6''Pro i5 8G 1050MAX-Q 256G"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">15.6''Pro i5 8G 1050MAX-Q 256G</a></h3>
+					<!-- 简介 -->    <!-- <p class="desc"></p> -->
+								    <p class="price"> <span class="num">6299</span>元</p>
+								    <!-- <div class="flag flag-new">新品</div></li> -->
+							</li>
+								<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/13.3Air.jpg" width="160" height="160" alt="13.3''小米笔记本Air 四核i7 8G 256G MX150 银色"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">13.3''小米笔记本Air 四核i7 8G 256G MX150 银色</a></h3>
+								   <!--  <p class="desc">小水滴全面屏，后置1200万 AI 双摄</p> -->
+								    <p class="price"> <span class="num">5999</span>元</p>
+								    <!-- <div class="flag flag-new">新品</div>  </li> -->
+							</li>
+							<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/TV4A.jpg" width="160" height="160" alt="小米游戏本15.6''i7 16G 1T+256G 1060 6G"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米游戏本15.6''i7 16G 1T+256G 1060 6G</a></h3>
+								    <!-- <p class="desc">64位四核处理器/1GB+4GB大内存</p> -->
+								    <p class="price"> <span class="num">7999</span>元<del><span class="num">&nbsp;8999</span>元</p>
+								    <div class="flag flag-new">新品</div>  </li>
+							</li>
+									<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/13.3Air.jpg" width="160" height="160" alt="13.3''小米笔记本Air 四核i7 8G 256G MX150 银色"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">13.3''小米笔记本Air 四核i7 8G 256G MX150 银色</a></h3>
+								   <!--  <p class="desc">小水滴全面屏，后置1200万 AI 双摄</p> -->
+								    <p class="price"> <span class="num">5999</span>元</p>
+								    <!-- <div class="flag flag-new">新品</div>  </li> -->
+							</li>
+								<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/blackmouse.png" width="160" height="160" alt="小米无线鼠标"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米无线鼠标</a></h3>
+								    <p class="desc">耐脏亲肤图层，人体工学设计</p>
+								    <p class="price"> <span class="num">69</span>元<!-- <del><span class="num">&nbsp;1499</span>元  --></p>
+								    <!-- <div class="flag flag-saleoff">减 200 元</div></li> -->
+							</li>
+							<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/whitemouse.jpg" width="160" height="160" alt="小米便携鼠标"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米便携鼠标</a></h3>
+								    <p class="desc">轻薄便携，铝合金外壳+ABS 材质</p>
+								    <p class="price"> <span class="num">99</span>元 <!-- <del><span class="num">&nbsp;3699</span>元  --></p>
+								    <!-- <div class="flag flag-saleoff">  享8折  </div> -->
+							</li>
+							<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/keybroad.png" width="160" height="160" alt="悦米机械键盘"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">悦米机械键盘</a></h3>
+								    <p class="desc">铝合金机身，TTC红轴，87键</p>
+								    <p class="price"> <span class="num">289</span>元    </p>
+								   <!--  <div class="flag flag-saleoff">   享8折  </div> -->
+							</li>
+							<li class="brick-item brick-item-s brick-item-m-2">
+								    <div class="figure figure-img" > 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/patch.jpg" width="80" height="80" alt="多功能转接器"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">多功能转接器</a></h3>
+								    <p class="price"> <span class="num">149</span>元 </p>  
+							</li>
+							<li class="brick-item brick-item-s" style="    margin-top: 20px;">
+									<div class="figure figure-more">
+									<a href="" target="_blank"  onclick=""><i class="iconfont">-></i></a>
+								    </div>
+								    <a class="more" href="" target="_blank"  onclick="">浏览更多
+								   	<small>热门</small>
+								    </a>
+							</li>
+						</ul>
+
+						<ul class="brick-list tab-content clearfix tab-content-hide" id="household" style="display: none;">
+							
+								<li class="brick-item brick-item-m brick-item-m-2" > 
+									<div class="figure figure-img"> <a class="exposure" href="" onclick=""> 
+									<img src="./pacture/kettle2.jpg" width="160" height="160" alt="米家恒温电水壶"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">米家恒温电水壶</a></h3>
+					<!-- 简介 -->    <p class="desc">水温智能控制，304不锈钢内胆</p>
+								    <p class="price"> <span class="num">199</span>元</p>
+								    <!-- <div class="flag flag-new">新品</div></li> -->
+							</li>
+							<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/flashlight.jpg" width="160" height="160" alt="米家随身手电筒"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">米家随身手电筒</a></h3>
+								     <p class="desc">11档调光，随心而亮</p>
+								    <p class="price"> <span class="num">79</span>元<!-- <del><span class="num">&nbsp;2999</span>元 --></p>
+								    <div class="flag flag-new">新品</div></li>
+							</li>
+							<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/robot2.jpg" width="160" height="160" alt="米家扫地机器人"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">米家扫地机器人</a></h3>
+								    <p class="desc">智能路径规划，扫得干净扫得快</p>
+								    <p class="price"> <span class="num">1699</span>元<<!-- del><span class="num">&nbsp;899</span>元 --></p>
+								    <!-- <div class="flag flag-saleoff">减 100 元</div>  </li> -->
+							</li>
+								<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/treater.jpg" width="160" height="160" alt="小米米家空气进化器2S"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">小米米家空气进化器2S</a></h3>
+								    <p class="desc">OLED显示器/激光颗粒物传感器</p>
+								    <p class="price"> <span class="num">899</span>元<!-- <del><span class="num">&nbsp;899</span>元  --></p>
+								    <!-- <div class="flag flag-saleoff">减 300 元</div>  </li> -->
+							</li>
+								<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/cooker.jpg" width="160" height="160" alt="米家压力IH电饭煲"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">米家压力IH电饭煲</a></h3>
+								    <p class="desc">智能烹饪，灰铸铁粉体涂层内胆</p>
+								    <p class="price"> <span class="num">999</span>元<!-- <del><span class="num">&nbsp;1499</span>元 --> </p>
+								   <!--  <div class="flag flag-saleoff">减 200 元</div></li> -->
+							</li>
+							<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/bulb.jpg" width="160" height="160" alt="飞利浦智睿球炮灯"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">飞利浦智睿球炮灯</a></h3>
+								    <p class="desc">自由调节亮度，Wi-Fi随时操控</p>
+								    <p class="price"> <span class="num">49</span>元 <!-- <del><span class="num">&nbsp;3699</span>元 --> </p>
+								    <!-- <div class="flag flag-saleoff">  享8折  </div> -->
+							</li>
+							<li class="brick-item brick-item-m brick-item-m-2">
+								    <div class="figure figure-img"> 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/lamp.jpg" width="160" height="160" alt="米家LED智能台灯"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">米家LED智能台灯</a></h3>
+								    <p class="desc">无可视频闪，四种场景优化调光</p>
+								    <p class="price"> <span class="num">169</span>元    </p>
+								   <!--  <div class="flag flag-saleoff">   享8折  </div> -->
+							</li>
+							<li class="brick-item brick-item-s brick-item-m-2">
+								    <div class="figure figure-img" > 
+									<a class="exposure" href="" onclick=""> 
+									<img src="./pacture/yee.png" width="80" height="80" alt="Yeelight LED 吸顶灯"> </a> 
+									</div> 
+									<h3 class="title"><a href=""  onclick="">Yeelight LED 吸顶灯</a></h3>
+									 <!-- <p class="desc">无可视频闪，四种场景优化调光</p> -->
+								    <p class="price"> <span class="num">379</span>元 </p>  
+							</li>
+							<li class="brick-item brick-item-s" style="    margin-top: 20px;">
+									<div class="figure figure-more">
+									<a href="" target="_blank"  onclick=""><i class="iconfont">-></i></a>
+								    </div>
+								    <a class="more" href="" target="_blank"  onclick="">浏览更多
+								   	<small>热门</small>
+								    </a>
+							</li>
+						</ul>
+	
+
+
+
+
+				</div>
+  			</div>
+  		</div>
+
+
+
+
+</body>
+</html>
