@@ -68,7 +68,7 @@ header{
 	padding-top: 1rem;
 	overflow: hidden;
 	position: relative;
-	z-index: 10;
+	/*z-index: 10;*/
 }
 .course-class-list{
 	width: 100%;
