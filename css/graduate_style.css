@@ -1,0 +1,35 @@
+
+
+.first_page{width: 100%;height: auto;}
+.graduate_head{width:100% ; ;}
+.graduate_title{text-align: center;height: 2.8rem;margin-top: 1rem;}
+.graduate_title img{width: 10%;position:absolute;left:1rem ;}
+
+.graduate_title h2{display: inline-block;margin:0 auto;}
+.graduate_topic{width: 100%;height: 2rem;border-bottom: 2px solid gainsboro;text-align: center;}
+ul,li{margin: 0;padding: 0;}
+.graduate_topic ul li{display: inline-block;width: 32.5%;color: #DCDCDC;height: 2rem;line-height: 2rem;}
+.graduate_topic li:hover{color: dimgray;background-color: whitesmoke;border-bottom: 2px solid blueviolet;}
+.hover_page{position: absolute;display: none;}
+.course_content{width: 100%;margin-top: 1rem;}
+.course_img{display: inline-block;width: 45%;}
+.course_img img{width: 95%;height: 7.4rem;}
+.course_textpart{line-height:none;text-align:left;display: inline-block;
+                width: 53%;height: 100%;color: #696969;}
+.course_textpart span{display: block;}     
+.course_textpart .text_color{color: gainsboro;}
+.course_textpart .name{background: url(../img/backgrand_small.png);width: 3.5rem;height: 1.8rem;color: whitesmoke;border-radius: 15px 15px 0 15px;text-align: center;}           
+.information{background-color: whitesmoke;text-align: left;}
+.information .number{color: gray;}
+.number{display: inline-block;width: 50%;}
+.price{display: inline-block;text-align: right;width: 45%;}
+.price .old_price{display:inline-block;width: 30%;text-decoration: line-through;}
+.price .now_price{display:inline-block;width: 30%;color: black;}
+#pablic img{width: 100%;margin-left: 0;margin-top: 3rem;}
+#system img{width: 100%;margin-left: 0;margin-top: 3rem;}
+#pablic .hover_page{text-align: center;width: 100%;left: 0rem;}
+#system .hover_page{text-align: center;width: 100%;left: 0rem;}
+#all:hover .hover_page{display: block;}
+#pablic:hover .hover_page{display: block;}
+#system:hover .hover_page{display: block;}
+
