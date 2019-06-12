@@ -1,0 +1,388 @@
+			 		 .top-title{
+				text-align: center;
+			}
+			 .top-scan{
+		 	    display: inline-block;
+			    float: right;
+			    margin-top: -3.2rem;
+				
+			}
+	
+
+
+			 .swiper-big img{
+				width: 1000px;
+			}
+			.swiper-big{
+				
+				width: 4510px;
+				animation-name: lb;
+				animation-duration: 3s;
+				animation-iteration-count: 10;
+			}
+			.top-swiper{
+			    margin-left: -1rem;
+				width: 1500px;
+				overflow: hidden;
+			}
+			@keyframes lb{
+				0%{
+					margin-left: 0;
+				}
+				45%{
+					margin-left: -1500px;		
+				}
+				100%{
+					margin-left: -3000px;
+				}
+			}
+
+			.mod-content{
+
+			}
+			.classification{
+				position: absolute;
+				left: 0rem;
+				/*padding: 0 0.426667rem;*/
+				width: 100%;
+			    box-shadow: 0 2px 16px 0 rgba(220,220,220,.5);
+				
+			}
+			.classification ul{
+ 				display: flex;
+			    flex-wrap: wrap;
+			    width: 100%;
+		        margin-left: -1.5rem;
+
+			}
+			.classification ul li{
+				list-style-type: none;
+				display: inline-block;
+			    flex: 0 0 25%;
+			    text-align: center;
+			}
+				.classification ul li a{
+				line-height:  2.5rem;
+				color: #525252;
+				text-decoration: none;
+			}
+		
+			.classification ul li div {
+			    margin-bottom: 0.1333rem;
+		        width: 2.5rem; 
+    			height: 2.5rem;
+			    border-radius: 50%;
+			    position: relative;	
+			    left: 50%;
+			    transform: translateX(-50%);
+			}
+
+			.classification ul li:nth-child(1) div {
+				box-shadow: 0 0 5px #888888;
+			   /* background: #ea8a57;*/
+			}
+			.classification ul li:nth-child(2) div {
+			   box-shadow: 0 0 5px #888888;
+			   /* background: #ea8a57;*/
+			}
+			.classification ul li:nth-child(3) div {
+			   box-shadow: 0 0 5px #888888;
+			   /* background: #ea8a57;*/
+			}
+			.classification ul li:nth-child(4) div {
+			   box-shadow: 0 0 5px #888888;
+			   /* background: #ea8a57;*/	
+			}
+
+
+	.classification2{
+    padding-left: 1.8rem;
+    margin-top: 1rem;
+    flex-wrap: nowrap;
+
+	}
+	.classification2-list-btn{
+		background-color: white;
+		border-radius: 0.25rem;
+		border:1px solid #F5F5F5;
+		box-shadow: 0px 0px 5px #888888;
+		width: 7.5rem;
+		height: 2.8rem;
+		
+	}
+	/*.classification2-list-btn:hover{
+		transform: translate3d(0,-2px,0);
+	}*/
+	.classification2-list-btn img{
+		vertical-align: middle;
+	}
+
+
+
+.bottom-menu{
+			position: fixed;
+			bottom: 0;
+		    left: 0rem;
+		    background-color: #F9F9F9;
+		    box-shadow: 0 0 1px #888888;
+		    width: 100%;
+		}
+		.bottom-menu ul{
+			list-style-type: none;
+		    display: flex;
+
+		}
+		.bottom-menu ul li{
+			display: inline-block;
+			text-align: center;
+    		flex: 0 0 23%;
+
+		}
+		.bottom-menu ul li button{
+			background-color: #F9F9F9;
+			border:0;
+		}
+		.original-img{
+			display: block;
+		}
+		.focus-img{
+			display: none;
+		}
+		.bottom-menu ul li:hover .original-img{
+			display: none;
+
+		}
+		.bottom-menu ul li:hover .focus-img{
+			display: block;
+
+		}
+
+
+
+
+		.mod-course{
+			 box-shadow: 0 2px 16px 0 rgba(220,220,220,.5);
+			position: absolute;
+		    top: 26rem;
+		    left: 0rem;
+		    width: 100%;
+
+		}
+		.mod-course .mod-course-title{
+			font-size: 14px;
+		    margin-left: 1.5rem;
+		}
+		.mod-course-content-1{
+			 box-shadow: 0 2px 16px 0 rgba(220,220,220,.5);
+			 border-radius: 3%;
+		}
+		.class-net-card{
+		    width: 400px;
+		    height: 223px;
+		    background-color: #fff;
+		    padding: 20px;
+	  	 	
+		    border-radius: 4px;
+		    margin-bottom: 20px;
+		    margin-right: 20px;
+		    cursor: pointer;
+		}
+		.ni-card-top{
+	    	border-bottom: 1px solid #ebebeb;
+		  	padding-bottom: 20px;
+		}
+		
+
+		.ni-card-info{
+		    position: relative;
+		    top: -9rem;
+		    left: 16rem;
+
+		}
+		.ni-card-name{
+		    height: 48px;
+			font-size: 16px;
+			line-height: 24px;
+			margin-bottom: 12px;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			overflow: hidden;
+		}
+
+		
+		.flex {
+		    display: flex;
+		    align-items: center;
+		}
+		.ni-card-time{
+		    padding-right: 10px;
+    		border-right: 1px solid #818a92;
+		}
+		.ni-card-size{
+		    padding-left: 10px;
+	        height: 0px;
+			line-height: 14px;
+			color: #818a92;
+			margin-bottom: 15px;
+		}
+		.ni-card-teacher{
+		    width: 52px;
+		    padding: 0 6px;
+		    height: 18px;
+		    line-height: 18px;
+		    font-size: 12px;
+		    text-align: center;
+		    color: #fff;
+		    background-color: #4c84ff;
+		    margin-right: 10px;
+		    border-radius: 10px;
+		    border-bottom-right-radius: 0;
+		    -webkit-line-clamp: 1;
+		    overflow: hidden;
+		    word-wrap: break-word;
+		    word-break: break-all;
+		}
+
+		.ni-card-bottom{
+			position: relative;
+		    top: -9rem;
+		    left: 0rem;
+		    padding-top: 20px;
+		    display: flex;
+		    /*background-color: #F9F9F9;*/
+		    justify-content: space-between;
+		}
+		.ni-card-people{
+		    color: #818a92;
+   			line-height: 21px;
+		}
+		.ni-card-people div{
+		    height: 21px;
+		}
+		.ni-price{
+		    color: #818a92;
+		    text-decoration: line-through;
+		    margin-right: 14px;
+		}
+		.ni-sell{
+		    font-size: 22px;
+		    color: #ff5d32;
+		    display: flex;
+		    align-items: flex-end;
+		    font-weight: 700;
+		    line-height: 22px;
+		}
+
+					 .mod-course{
+						 box-shadow: 0 2px 16px 0 rgba(220,220,220,.5);
+						 position: absolute;
+						 top: 26rem;
+						 left: 0rem;
+						 width: 100%;
+
+					 }
+					 .mod-course .mod-course-title{
+						 font-size: 14px;
+						 margin-left: 1.5rem;
+					 }
+					 .mod-course-content-1{
+						 box-shadow: 0 2px 16px 0 rgba(220,220,220,.5);
+						 border-radius: 3%;
+					 }
+					 .class-net-card{
+						 width: 400px;
+						 height: 223px;
+						 background-color: #fff;
+						 padding: 20px;
+
+						 border-radius: 4px;
+						 margin-bottom: 20px;
+						 margin-right: 20px;
+						 cursor: pointer;
+					 }
+					 .ni-card-top{
+						 border-bottom: 1px solid #ebebeb;
+						 padding-bottom: 20px;
+					 }
+
+
+					 .ni-card-info{
+						 position: relative;
+						 top: -9rem;
+						 left: 16rem;
+
+					 }
+					 .ni-card-name{
+						 height: 48px;
+						 font-size: 16px;
+						 line-height: 24px;
+						 margin-bottom: 12px;
+						 display: -webkit-box;
+						 -webkit-line-clamp: 2;
+						 overflow: hidden;
+					 }
+
+
+					 .flex {
+						 display: flex;
+						 align-items: center;
+					 }
+					 .ni-card-time{
+						 padding-right: 10px;
+						 border-right: 1px solid #818a92;
+					 }
+					 .ni-card-size{
+						 padding-left: 10px;
+						 height: 0px;
+						 line-height: 14px;
+						 color: #818a92;
+						 margin-bottom: 15px;
+					 }
+					 .ni-card-teacher{
+						 width: 52px;
+						 padding: 0 6px;
+						 height: 18px;
+						 line-height: 18px;
+						 font-size: 12px;
+						 text-align: center;
+						 color: #fff;
+						 background-color: #4c84ff;
+						 margin-right: 10px;
+						 border-radius: 10px;
+						 border-bottom-right-radius: 0;
+						 -webkit-line-clamp: 1;
+						 overflow: hidden;
+						 word-wrap: break-word;
+						 word-break: break-all;
+					 }
+
+					 .ni-card-bottom{
+						 position: relative;
+						 top: -9rem;
+						 left: 0rem;
+						 padding-top: 20px;
+						 display: flex;
+						 /*background-color: #F9F9F9;*/
+						 justify-content: space-between;
+					 }
+					 .ni-card-people{
+						 color: #818a92;
+						 line-height: 21px;
+					 }
+					 .ni-card-people div{
+						 height: 21px;
+					 }
+					 .ni-price{
+						 color: #818a92;
+						 text-decoration: line-through;
+						 margin-right: 14px;
+					 }
+					 .ni-sell{
+						 font-size: 22px;
+						 color: #ff5d32;
+						 display: flex;
+						 align-items: flex-end;
+						 font-weight: 700;
+						 line-height: 22px;
+					 }
+
