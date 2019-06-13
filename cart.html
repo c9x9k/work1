@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我的京东</title>
+		<link rel="icon" href="https://m.jd.com/favicon.ico" type="image/x-icon">
+		<link href="css/recommend_v2.min_44ccf8dd.css" rel="stylesheet" type="text/css">
+		<link href="css/mod_address_slide.min_c74dbaf7.css" rel="stylesheet" type="text/css">
+		<link href="css/index.min_e1e71516.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover">
+	<body>
+		<div class="wx_wrap" id="wxWrapCont">
+			<div class="m_header_v2" id="m_header" style="display: block;">
+				<div class="m_header_bar">
+					<div class="m_header_bar_back"></div>
+					<div class="m_header_bar_title">购物车</div>
+					<div class="m_header_bar_menu"></div>
+				</div>
+				<div class="m_header_nav" style="display:none;">
+					<div class="m_header_nav_item type_index" idx="0">首页</div>
+					<div class="m_header_nav_item type_search" idx="1">分类搜索</div>
+					<div class="m_header_nav_item type_shopcart cur" idx="2">购物车</div>
+					<div class="m_header_nav_item type_my" idx="3">我的京东</div>
+					<div class="m_header_nav_item type_recently" idx="4">浏览记录</div>
+				</div>
+			</div>
+			<div class="m_header_v2_mask" style="display:none;"></div>
+
+			<div style="display: none;" id="nopinLogin"></div>
+			<div class="new_guide_mask" style="display: none;"></div>
+			<!-- 购物车主页面容器 -->
+			<div id="c_jdshopcart_showList" class="c_showJs">
+				<div class="address_bar_wrap" style="margin-bottom: 0px;">
+					<div class="address_bar">
+						<a href="javascript:;" class="address" id="addrNameTxt" ptag="7014.1.1"><em>广州市番禺区</em></a>
+						<span class="btn" id="editBtn" ptag="7014.1.41"><span>编辑商品</span></span>
+						<span class="btn" id="shareTop" style="display:none;" ptag="7014.1.42"><span>分享</span></span>
+						<span class="btn" id="quickCleanEnter" style="display:none;"><i class="quick_clean_icon"></i><span>快速清理</span></span>
+					</div>
+					<div class="newGuide quickClean" style="display:none;">编辑状态下可快速清理购物车</div>
+				</div>
+				<div id="listContent">
+					<div id="huangtiao" primary="2" style="display: none;">
+						<div class="mod_blockTips bg_red " clicknum="0"><i class="close"></i>
+							<p>购物车中有1件降价商品，点击查看商品</p>
+						</div>
+					</div>
+					<!-- 购物车商品列表容器 #list -->
+					<div id="cmdtylist" attr-tag="cmdtylist">
+						<div class="section" id="s_647334" shopid="647334">
+							<div class="head_wrap">
+								<div class="head shopheadJs selected"> <i class="icon_select" attr-chktye="2" attr-tag="iconChkEve"></i> <i
+									 class="icon_shop"></i> <span class="title oneline" attr-tag="jumpHrefEve" attr-href="//shop.m.jd.com/?shopId=647334"
+									 ptag="7014.4.1" mreport="MShopcart_ShopEntrance,647334,3">京联通达旗舰店<i class="icon_arrow_right"></i></span> <a
+									 class="btn quanJs" href="javascript:void(0);" shopid="647334" attr-tag="shopCouponEnter" style="" ptag="7014.4.2">优惠券</a>
+								</div>
+							</div>
+							<div class="item item_connect" id="p_22397767756" attr-polytype="4"> <a class="head  head_act"> <span class="tag">加价购</span>
+									<p class="title">已购满4000元，可用优惠价换购商品1件</p> <span class="a_head_right_text" attr-tag="searchPro" attr-href="//so.m.jd.com/list/cartSearch.action?activityId=22397767756&amp;activitySTip=FKHugjVQ6DrxBbaS87j+YzJFvGTlZ8tATGkKSBoE3PHCDwcOo6OswA==&amp;skuId=47867426887&amp;promotion_aggregation=yes&amp;pro_d=加价购&amp;pro_s=满4000元加99元可换购商品&amp;ptag=137081.5.3"
+									 ptag="7014.4.3" searchtype="3">换购商品</span>
+								</a>
+								<div class="goods selected goods_last " attr-tag="checkItem" attr-sku="47867426887" cid="9987_653_655" isfresh=""
+								 num="1" goodprice="4788.00"> <i class="icon_select" attr-tag="iconChkEve" attr-chktye="3" icontip="47867426887"
+									 ptag="7014.2.1"></i> <img class="image" src="image/5cdd22ebNefa7b246.jpg!q70.dpg.webp" alt="" attr-tag="jumpHrefEve"
+									 attr-href="//item.m.jd.com/product/47867426887.html" ptag="7014.2.2" onload="firstImgLoaded()" onerror="__reloadResource(this)"
+									 mreport="MShopcart_Productid,47867426887,4">
+									<p class="image_tag" attr-stock="stock_47867426887" lowestbuy="0" style="display: none;"></p>
+									<div class="lower_price" style="display:none;"></div>
+									<div class="content" attr-href="//item.m.jd.com/product/47867426887.html" attr-tag="jumpHrefEve" ptag="7014.2.4"
+									 style="">
+										<div class="name"> <span class="proNameJs">一加 OnePlus 7 Pro 2K+90Hz 一加6T升级版 流体屏 骁龙855旗舰性能 超广角 曜岩灰 8G+256G</span>
+										</div>
+										<p class="sku" attr-tag="skuChange" isdist="" attr-weight="0">曜岩灰，8G+256G</p>
+										<div class="discount_line" style="display: none;"> </div>
+										<div class="goods_line">
+											<p class="price " attr-tag=""><span class="priceJs" goodprice="4788.00">¥ <em class="int">4788</em>.00</span></p>
+											<div class="num_and_more">
+												<div class="num_wrap" attr-tag="cmdtynum" skuid="47867426887"> <span class="minus disabled"></span>
+													<div class="input_wrap"><input class="num" type="tel" value="1" max="200" prevalue="1" lowestbuy="0"></div>
+													<span class="plus "></span>
+												</div>
+											</div>
+										</div>
+										<div class="goods_sub_line">
+											<div class="m_action" attr-tag="action"> <span class="m_action_item" attr-tag="favItemEve" issuit="">移入关注</span>
+												<span class="m_action_item" attr-tag="delItemEve" issuit="">删除</span> </div>
+										</div>
+										<div class="goods_sub_line" style="display:none;">
+											<div class="m_action"><span class="m_action_item" attr-xiangou=""></span></div>
+										</div>
+										<div class="goods_sub_line yuyuetip" style="display:none;"></div>
+										<div class="goods_rec_line" style="display: none;" ptag="137081.9.5">
+											<p class="goods_rec_desc"></p>
+										</div>
+									</div>
+									<div class="shopcart_additional">
+										<div class="shopcart_additional_inner">
+											<div class="shopcart_additional_kind"> <span class="shopcart_additional_kind_label">促销</span>
+												<ul class="shopcart_additional_kind_list">
+													<li class="shopcart_additional_kind_item type_select" attr-tag="chgPromoEve" skuid="47867426887" ptag="7014.2.6">
+														<div class="shopcart_additional_kind_item_block">
+															<p class="shopcart_additional_kind_item_text">满4000元加99元可换购商品</p> <span class="shopcart_additional_kind_item_action">2个可选</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<div class="shopcart_additional_kind"> <span class="shopcart_additional_kind_label">赠品</span>
+												<ul class="shopcart_additional_kind_list">
+													<li class="shopcart_additional_kind_item type_lnk" attr-href="//item.m.jd.com/product/30897645955.html?sid=dc3dcda88905cd028a37510b0689f04d"
+													 attr-tag="jumpHrefEve">
+														<div class="shopcart_additional_kind_item_block">
+															<p class="shopcart_additional_kind_item_text">迪虎 Type-C数据线充电线 华为p20/p9/荣耀8/mate9 荣耀note10 颜色随机 1.2m</p>
+															<span class="shopcart_additional_kind_item_action">x1</span>
+														</div>
+													</li>
+													<li class="shopcart_additional_kind_item type_lnk" attr-href="//item.m.jd.com/product/47828831227.html?sid=dc3dcda88905cd028a37510b0689f04d"
+													 attr-tag="jumpHrefEve">
+														<div class="shopcart_additional_kind_item_block">
+															<p class="shopcart_additional_kind_item_text">一加 7pro 高清水凝膜</p> <span class="shopcart_additional_kind_item_action">x1</span>
+														</div>
+													</li>
+													<li class="shopcart_additional_kind_item type_lnk" attr-href="//item.m.jd.com/product/46493547736.html?sid=dc3dcda88905cd028a37510b0689f04d"
+													 attr-tag="jumpHrefEve">
+														<div class="shopcart_additional_kind_item_block">
+															<p class="shopcart_additional_kind_item_text">迪虎 手持/办公室便携式小风扇 粉色</p> <span class="shopcart_additional_kind_item_action">x1</span>
+														</div>
+													</li>
+													<li class="shopcart_additional_kind_item type_lnk" attr-href="//item.m.jd.com/product/47829307933.html?sid=dc3dcda88905cd028a37510b0689f04d"
+													 attr-tag="jumpHrefEve">
+														<div class="shopcart_additional_kind_item_block">
+															<p class="shopcart_additional_kind_item_text">一加 7pro 手机保护壳</p> <span class="shopcart_additional_kind_item_action">x1</span>
+														</div>
+													</li>
+													<li class="shopcart_additional_kind_item type_lnk" attr-href="//item.m.jd.com/product/41428889763.html?sid=dc3dcda88905cd028a37510b0689f04d"
+													 attr-tag="jumpHrefEve">
+														<div class="shopcart_additional_kind_item_block">
+															<p class="shopcart_additional_kind_item_text">乐外吃鸡神器 商家仓（单独拍不发货）</p> <span class="shopcart_additional_kind_item_action">x1</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<div class="shopcart_additional_kind" attr-tag="jdservice" skuid="47867426887" vskuid="" rsuitid="22397767756"
+											 insuit="0" gifttype="0"><span class="shopcart_additional_kind_label">服务</span>
+												<ul class="shopcart_additional_kind_list">
+													<li class="shopcart_additional_kind_item type_lnk">
+														<div class="shopcart_additional_kind_item_block service_yb">
+															<p class="shopcart_additional_kind_item_text">选择增值服务</p>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="shopcart_goods_back cjfBackJs" style="display:none;"><i class="icon_warning"></i>该宝贝暂时没有返利</div>
+								</div>
+							</div>
+						</div>
+						<div class="section" id="s_187196" shopid="187196">
+							<div class="head_wrap">
+								<div class="head shopheadJs"> <i class="icon_select" attr-chktye="2" attr-tag="iconChkEve"></i> <i class="icon_shop"></i>
+									<span class="title oneline" attr-tag="jumpHrefEve" attr-href="//shop.m.jd.com/?shopId=187196" ptag="7014.4.1"
+									 mreport="MShopcart_ShopEntrance,187196,3">雷克沙专卖店<i class="icon_arrow_right"></i></span> <a class="btn quanJs"
+									 href="javascript:void(0);" shopid="187196" attr-tag="shopCouponEnter" style="display:none" ptag="7014.4.2">优惠券</a>
+								</div>
+							</div>
+							<div class="item" id="p_34823430417" attr-polytype="1">
+								<div class="goods jiangjia" attr-tag="checkItem" attr-sku="34823430417" cid="652_829_845" isfresh="" num="1"
+								 goodprice="399.00"> <i class="icon_select" attr-tag="iconChkEve" attr-chktye="3" icontip="34823430417" ptag="7014.2.1"></i>
+									<img class="image" alt="" attr-tag="jumpHrefEve" attr-href="//item.m.jd.com/product/34823430417.html" ptag="7014.2.2"
+									 onload="firstImgLoaded()" onerror="__reloadResource(this)" mreport="MShopcart_Productid,34823430417,4" src="image/4f3ad557c6b97be7.jpg!q70.dpg.webp">
+									<p class="image_tag" attr-stock="stock_34823430417" lowestbuy="0" style="display: none;"></p>
+									<div class="lower_price" style="" ptag="7014.2.47">闪购中<br>6月10日结束</div>
+									<div class="content" attr-href="//item.m.jd.com/product/34823430417.html" attr-tag="jumpHrefEve" ptag="7014.2.4"
+									 style="min-height: 112px;">
+										<div class="name"> <span class="proNameJs">雷克沙（Lexar）TF卡 633X 存储卡 gopro microSD手机高速switch内存卡 TF卡512G 高速U3 V30
+												A2</span> </div>
+										<p class="sku" attr-tag="skuChange" isdist="" attr-weight="0">TF卡512G 高速U3 V30 A2</p>
+										<div class="discount_line" style="">
+											<div class="discount_item">比加入时降￥190</div>
+										</div>
+										<div class="goods_line">
+											<p class="price" attr-tag=""><span class="price_flash priceJs" goodprice="399.00">¥ <em class="int">399</em>.00</span><span
+												 class="price_before">¥ <em class="int">659</em>.00</span></p>
+											<div class="num_and_more">
+												<div class="num_wrap" attr-tag="cmdtynum" skuid="34823430417"> <span class="minus disabled"></span>
+													<div class="input_wrap"><input class="num" type="tel" value="1" max="200" prevalue="1" lowestbuy="0"></div>
+													<span class="plus "></span>
+												</div>
+											</div>
+										</div>
+										<div class="goods_sub_line">
+											<div class="m_action" attr-tag="action"> <span class="m_action_item" attr-tag="favItemEve" issuit="">移入关注</span>
+												<span class="m_action_item" attr-tag="delItemEve" issuit="">删除</span> </div>
+										</div>
+										<div class="goods_sub_line" style="display:none;">
+											<div class="m_action"><span class="m_action_item" attr-xiangou=""></span></div>
+										</div>
+										<div class="goods_sub_line yuyuetip" style="display:none;"></div>
+										<div class="goods_rec_line" style="display: none;" ptag="137081.9.5">
+											<p class="goods_rec_desc"></p>
+										</div>
+									</div>
+									<div class="shopcart_additional">
+										<div class="shopcart_additional_inner">
+											<div class="shopcart_additional_kind"> <span class="shopcart_additional_kind_label">赠品</span>
+												<ul class="shopcart_additional_kind_list">
+													<li class="shopcart_additional_kind_item type_lnk" attr-href="//item.m.jd.com/product/44883604782.html?sid=dc3dcda88905cd028a37510b0689f04d"
+													 attr-tag="jumpHrefEve">
+														<div class="shopcart_additional_kind_item_block">
+															<p class="shopcart_additional_kind_item_text">赠品 TF卡读卡器 USB2.0 颜色随机 读卡器</p> <span class="shopcart_additional_kind_item_action">x1</span>
+														</div>
+													</li>
+													<li class="shopcart_additional_kind_item type_lnk" attr-href="//item.m.jd.com/product/13085145809.html?sid=dc3dcda88905cd028a37510b0689f04d"
+													 attr-tag="jumpHrefEve">
+														<div class="shopcart_additional_kind_item_block">
+															<p class="shopcart_additional_kind_item_text">赠品 SD卡盒</p> <span class="shopcart_additional_kind_item_action">x1</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<div class="shopcart_additional_kind" attr-tag="jdservice" skuid="34823430417" vskuid="" rsuitid="" insuit="0"
+											 gifttype="0"><span class="shopcart_additional_kind_label">服务</span>
+												<ul class="shopcart_additional_kind_list">
+													<li class="shopcart_additional_kind_item type_lnk">
+														<div class="shopcart_additional_kind_item_block service_yb">
+															<p class="shopcart_additional_kind_item_text">选择增值服务</p>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="shopcart_goods_back cjfBackJs" style="display:none;"><i class="icon_warning"></i>该宝贝暂时没有返利</div>
+								</div>
+							</div>
+						</div>
+						<div class="section" id="s_8888" shopid="8888">
+							<div class="head_wrap">
+								<div class="head shopheadJs"> <i class="icon_select" attr-chktye="2" attr-tag="iconChkEve"></i> <i class="icon_jd"></i>
+									<span class="title oneline" name="京东自营" ptag="7014.4.1">京东自营</span>
+									<div class="notice hide" attr-fbpvender=""> <span class="notice_txt"></span> <a class="btn_inline" href="javascript:void(0);"
+										 attr-tag="jumpYunfei" style="display:none;">去凑单</a> </div> <a class="btn quanJs" href="javascript:void(0);"
+									 shopid="8888" attr-tag="shopCouponEnter" style="display:none" ptag="7014.4.2">优惠券</a>
+								</div>
+							</div>
+							<div class="item" id="p_100001503542" attr-polytype="1">
+								<div class="goods" attr-tag="checkItem" attr-sku="100001503542" cid="670_671_1105" isfresh="" num="1" goodprice="19998.00">
+									<i class="icon_select" attr-tag="iconChkEve" attr-chktye="3" icontip="100001503542" ptag="7014.2.1"></i> <img
+									 class="image" alt="" attr-tag="jumpHrefEve" attr-href="//item.m.jd.com/product/100001503542.html" ptag="7014.2.2"
+									 onload="firstImgLoaded()" onerror="__reloadResource(this)" mreport="MShopcart_Productid,100001503542,4" src="image/a4b59336613597d4.jpg!q70.dpg.webp">
+									<p class="image_tag" attr-stock="stock_100001503542" lowestbuy="0" style="display: none;"></p>
+									<div class="lower_price" style="display:none;"></div>
+									<div class="content" attr-href="//item.m.jd.com/product/100001503542.html" attr-tag="jumpHrefEve" ptag="7014.2.4"
+									 style="">
+										<div class="name"> <span class="proNameJs">雷蛇（Razer）灵刃 15.6英寸游戏本 （i7-8750H 16GB 512GB纯固态 GTX1060-6G显存 144Hz
+												FHD IPS WIN10） 闪购专用</span> </div>
+										<p class="sku" attr-tag="skuChange" isdist="" attr-weight="4200">4.2kg/件，15.6/i7/1060/512固态</p>
+										<div class="discount_line" style="display: none;"> </div>
+										<div class="goods_line">
+											<p class="price " attr-tag=""><span class="priceJs" goodprice="19998.00">¥ <em class="int">19998</em>.00</span></p>
+											<div class="num_and_more">
+												<div class="num_wrap" attr-tag="cmdtynum" skuid="100001503542"> <span class="minus disabled"></span>
+													<div class="input_wrap"><input class="num" type="tel" value="1" max="200" prevalue="1" lowestbuy="0"></div>
+													<span class="plus "></span>
+												</div>
+											</div>
+										</div>
+										<div class="goods_sub_line">
+											<div class="m_action" attr-tag="action"> <span class="m_action_item" attr-tag="favItemEve" issuit="">移入关注</span>
+												<span class="m_action_item" attr-tag="delItemEve" issuit="">删除</span> </div>
+										</div>
+										<div class="goods_sub_line" style="display:none;">
+											<div class="m_action"><span class="m_action_item" attr-xiangou=""></span></div>
+										</div>
+										<div class="goods_sub_line yuyuetip" style="display:none;"></div>
+										<div class="goods_rec_line" style="display: none;" ptag="137081.9.5">
+											<p class="goods_rec_desc"></p>
+										</div>
+									</div>
+									<div class="shopcart_goods_back cjfBackJs" style="display:none;"><i class="icon_warning"></i>该宝贝暂时没有返利</div>
+									<div class="shopcart_additional">
+										<div class="shopcart_additional_inner">
+											<div class="shopcart_additional_kind" attr-tag="jdservice" skuid="100001503542" vskuid="" rsuitid="" insuit="0"
+											 gifttype="0"><span class="shopcart_additional_kind_label">服务</span>
+												<ul class="shopcart_additional_kind_list">
+													<li class="shopcart_additional_kind_item type_lnk">
+														<div class="shopcart_additional_kind_item_block service_yb">
+															<p class="shopcart_additional_kind_item_text">选择增值服务</p>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="fixBar" name="checkgroup" id="fixBarBot" style="z-index: 99;">
+						<i class="icon_select" attr-chktye="1" attr-tag="iconChkEve" ptag="7014.3.1">全选</i>
+						<div class="total" id="totalConfirmDiv">
+							<div class="total_detail" id="totalDetail">
+								<p>总计：<span class="strong" id="totalPrice">¥4788.00</span></p>
+								<p class="small" id="totalBackMoney" style="display: none;">已优惠¥0.00</p>
+							</div><a href="javascript:;" class="buy buyJs" attr-tag="confirmEve">去结算<em attr-tag="confirmEve" id="totalNum"
+								 totalnum="1">(1件)</em></a>
+						</div>
+						<div class="btns" style="display:none" id="operateDiv">
+							<a href="javascript:;" class="btn_1" id="deleteBtn" attr-tag="delBtnEve" ptag="7014.1.2">删除</a>
+							<a href="javascript:;" class="btn_2" id="addFavor" attr-tag="favBtnEve" ptag="7014.3.4">移至收藏</a>
+							<a href="javascript:;" class="btn_3" id="setOftenBuy" attr-tag="setOftenBuyEve" ptag="137081.14.2" style="display: none;">设为常买</a>
+							<i class="icon_notice" attr-tag="setOftenBuyNotice" ptag="137081.14.20" style="display: none;"></i>
+						</div>
+					</div>
+				</div>
+				<div class="shopcart_banner" id="emptyContent" style="display:none;">
+
+				</div>
+				<div class="shopcart_mod_title" id="cnxhTitle" style=""><span class="shopcart_mod_title_text">可能你还想要</span></div>
+				<div id="myrecommend" style="padding-bottom: 70px;">
+					<div class="mod_recommend_v2">
+						<ul class="list" id="recommendList">
+							<li class="" attr-tag="cnxhlink" data-href="//item.m.jd.com/product/48032394301.html?exp=0&amp;scene=0&amp;rec=205003&amp;flow=20&amp;itemsid=9051fd9d-b194-4da7-afb5-6b30ffaf3015&amp;source=1&amp;pps=reclike.FO4O605:FOFO002EF42C3D3O13O6:FO010416O84O1FO8O7FFF502180CFOFO00276B8ABB30C8E808"
+							 data-repurl="http://ccc-x.jd.com/dsp/nc?ext=aHR0cDovL2l0ZW0ubS5qZC5jb20vcHJvZHVjdC80ODAzMjM5NDMwMS5odG1s&amp;log=bvdGw7RNU7ZOw4bmm5FGUgktB6OzA-Fb1hyfw1UdLDuhu_ql3TXDfZNQQf1ZywGM8D5_ojFt_EgPJkP-PsWaztKjxUIgqgWFFqOWOv7MPRQXrtFXvF6A0-DOXzlBKPkHV9qjLaxEAvBCfurN-TMERi-OxcLvpVutTpUZe-ECRIQiRNpu75DNi9_X8e2IyTAK86DHzKicUJUuNI3XFOGrUk1HSUjyYuOUGhqeae7Jo0KMh1RN-OlD0oqqSaYDfvsJicIxxq_YxwFIXrbZCBC8MMANOW8FL93-ceO8fa5aoaQ2W0fZXSE-EYuF8eHOhhMbEJedNx_o-mQFO9pFX1kcrUV_Pa61hkBMaMxJsLeGjUaLTiA1pgGTbQh4N3EulTYNneQW2tMsePMvBZDHa-RGftCzyAFgyKkcS7g16maGf1O1-esNHAalgMimVmBofudqMYSslPzgC0WsnfsaywWP72TAnFqSoJ1-b_LAGMwBOYuhJVzXxbd5OqZdce5c94I_UVKwLdoey0XAAcnZwAIOebNNB4hwRZA6ENK-453CLZ4&amp;v=404"
+							 data-exposalurl="https://sh.jd.com/g/8YLVDuK7MuW0zneQjBRfuN" source="1" sku="48032394301" clk="http://ccc-x.jd.com/dsp/nc?ext=aHR0cDovL2l0ZW0ubS5qZC5jb20vcHJvZHVjdC80ODAzMjM5NDMwMS5odG1s&amp;log=bvdGw7RNU7ZOw4bmm5FGUgktB6OzA-Fb1hyfw1UdLDuhu_ql3TXDfZNQQf1ZywGM8D5_ojFt_EgPJkP-PsWaztKjxUIgqgWFFqOWOv7MPRQXrtFXvF6A0-DOXzlBKPkHV9qjLaxEAvBCfurN-TMERi-OxcLvpVutTpUZe-ECRIQiRNpu75DNi9_X8e2IyTAK86DHzKicUJUuNI3XFOGrUk1HSUjyYuOUGhqeae7Jo0KMh1RN-OlD0oqqSaYDfvsJicIxxq_YxwFIXrbZCBC8MMANOW8FL93-ceO8fa5aoaQ2W0fZXSE-EYuF8eHOhhMbEJedNx_o-mQFO9pFX1kcrUV_Pa61hkBMaMxJsLeGjUaLTiA1pgGTbQh4N3EulTYNneQW2tMsePMvBZDHa-RGftCzyAFgyKkcS7g16maGf1O1-esNHAalgMimVmBofudqMYSslPzgC0WsnfsaywWP72TAnFqSoJ1-b_LAGMwBOYuhJVzXxbd5OqZdce5c94I_UVKwLdoey0XAAcnZwAIOebNNB4hwRZA6ENK-453CLZ4&amp;v=404"
+							 data-breathreport="1">
+								<div class="cover"> <img src="image/d143680f6124a38d.jpg!q70.dpg.webp"> </div>
+								<div class="info">
+									<div class="name"> ROG 枪神3 Plus 17.3英寸 144Hz 3ms防眩光屏游戏笔记本电脑 枪神3 Plus 9代i7/RTX2070/32G 144Hz 3ms 72% 1TSSD
+									</div>
+									<div class="flex_wrap">
+										<div class="price_info">
+											<div class="price">¥<em>17599</em></div>
+											<div class="mod_sign_tip bor "><span>新品</span></div>
+										</div>
+										<div class="buy rec_cart"></div>
+									</div>
+								</div>
+							</li>
+							<li class="ad_li" attr-tag="cnxhlink" data-href="//item.m.jd.com/product/11673849.html?exp=0&amp;scene=0&amp;rec=205003&amp;flow=20&amp;itemsid=9051fd9d-b194-4da7-afb5-6b30ffaf3015&amp;source=0&amp;pps=reclike.FO4O605:FOFO4OB220F93O13O6:FO010416O5C3O2FO8O7FFF502180CFOFO00276B8ABB30C8E808"
+							 data-repurl="//knicks.jd.com/log/server?t=rec_common_clk&amp;v=type=rec.205003$src=rec$action=1$reqsig=6ce6acb5e69d12ec8f31d25134b6432414b62c2a$enb=1$sku=0$skus=47867426887,34823430417,100001503542$p=205003$pin=$enp=IFXDdqNjG3nUnIyU%2FJ1dllaeHcNB96sq$uuid=2145817783$csku=11673849$index=0$st=0$adcli=$expid=101$mexpid=$im=$rid=195525909082324409$ver=1$sig=bc09ae38ebe18bb3b5e393b3c5458713e293311d"
+							 data-exposalurl="" source="0" sku="11673849" clk="//knicks.jd.com/log/server?t=rec_common_clk&amp;v=type=rec.205003$src=rec$action=1$reqsig=6ce6acb5e69d12ec8f31d25134b6432414b62c2a$enb=1$sku=0$skus=47867426887,34823430417,100001503542$p=205003$pin=$enp=IFXDdqNjG3nUnIyU%2FJ1dllaeHcNB96sq$uuid=2145817783$csku=11673849$index=0$st=0$adcli=$expid=101$mexpid=$im=$rid=195525909082324409$ver=1$sig=bc09ae38ebe18bb3b5e393b3c5458713e293311d"
+							 data-breathreport="1">
+								<div class="cover"> <img src="image/5524d5d6Nd1203809.jpg!q70.dpg.webp">
+									<div class="mod_good_decoration">
+										<div class="mod_good_decoration_belt" style=" background-size: 100% 100%;background-image: url(//img30.360buyimg.com/jgsq-productsoa/jfs/t14332/56/2342045055/8025/c40894c7/5a990af1N2719ee6f.png);  ">
+											<div class="mod_good_decoration_belt_text">每满100减50(6.5-6.10)</div>
+										</div>
+									</div>
+								</div>
+								<div class="info">
+									<div class="name"> <i class="mod_tag"><img src="image/5ce3c712Nf3bff694.png!q70.webp"></i> <i class="mod_tag"><img
+											 src="image/5aadf9dbN7043e607.png!q70.webp"></i> 刘慈欣合集：时间移民+2018（套装共2册） </div>
+									<div class="flex_wrap">
+										<div class="price_info">
+											<div class="price">¥<em>40</em></div>
+											<div class="mod_sign_tip bor "><span>券</span></div>
+										</div>
+										<div class="buy rec_cart"></div>
+									</div>
+								</div>
+							</li>
+							<li class="" attr-tag="cnxhlink" data-href="//item.m.jd.com/product/2340871.html?exp=0&amp;scene=0&amp;rec=205003&amp;flow=20&amp;itemsid=9051fd9d-b194-4da7-afb5-6b30ffaf3015&amp;source=1&amp;pps=reclike.FO4O605:FOFO4O23B8073O13O6:FO010416O8C3O3FO8O7FFF502180CFOFO00276B8ABB30C8E808"
+							 data-repurl="http://ccc-x.jd.com/dsp/nc?ext=aHR0cDovL2l0ZW0ubS5qZC5jb20vcHJvZHVjdC8yMzQwODcxLmh0bWw&amp;log=bvdGw7RNU7ZOw4bmm5FGUgktB6OzA-Fb1hyfw1UdLDv15m_Plp-csvNDCegIEUC3W3S44ikjU4U36OzE6ljLOKwWVR9aczgnMJOIt3Cn5HwMtvYVeuUnI-rN6DC879tIBIDDJYI3VeL0Ed8UyMBwlc-yltORlA60WbyqWZE3jKqJVkpq5wCVOa6NDzsPkWusUd3AVz9Sdvs2CA4Hm6U6PZINIpYZjum8q6BLgTxbDio4TbOLCa_4RDK0vdRgFzMV2Y-5gWKlLW-QOlkpldn-27rTCzldTK1GcmwOFZtO6OB05osLLvZckKUjRwDiouuFNRPbX_EhxUdZO5eh_CmUfoy0rajTcPb5fw_xydwaBUswges9jXzIeedtfJch4kzvGKAjDDi_BqEr_9yruidZXNh-OTNew5J14D7GaUCZH97aa1zW4yS-I7QUVvrXHGbTewKrjjXeHU28OSVGf7RX-F-yUwMsbhO7OeqAylG01Hj9Kp3Sp3IRZSWM_zryFwAPERY004aBtTt4ROT6a1Ff3ZYu7JCAGaltnqkGt4tJBVs&amp;v=404"
+							 data-exposalurl="https://sh.jd.com/g/d7v8AIOSNE58uozOlxjZaC" source="1" sku="2340871" clk="http://ccc-x.jd.com/dsp/nc?ext=aHR0cDovL2l0ZW0ubS5qZC5jb20vcHJvZHVjdC8yMzQwODcxLmh0bWw&amp;log=bvdGw7RNU7ZOw4bmm5FGUgktB6OzA-Fb1hyfw1UdLDv15m_Plp-csvNDCegIEUC3W3S44ikjU4U36OzE6ljLOKwWVR9aczgnMJOIt3Cn5HwMtvYVeuUnI-rN6DC879tIBIDDJYI3VeL0Ed8UyMBwlc-yltORlA60WbyqWZE3jKqJVkpq5wCVOa6NDzsPkWusUd3AVz9Sdvs2CA4Hm6U6PZINIpYZjum8q6BLgTxbDio4TbOLCa_4RDK0vdRgFzMV2Y-5gWKlLW-QOlkpldn-27rTCzldTK1GcmwOFZtO6OB05osLLvZckKUjRwDiouuFNRPbX_EhxUdZO5eh_CmUfoy0rajTcPb5fw_xydwaBUswges9jXzIeedtfJch4kzvGKAjDDi_BqEr_9yruidZXNh-OTNew5J14D7GaUCZH97aa1zW4yS-I7QUVvrXHGbTewKrjjXeHU28OSVGf7RX-F-yUwMsbhO7OeqAylG01Hj9Kp3Sp3IRZSWM_zryFwAPERY004aBtTt4ROT6a1Ff3ZYu7JCAGaltnqkGt4tJBVs&amp;v=404"
+							 data-breathreport="1">
+								<div class="cover"> <img src="image/628406a5cbe4de1c.jpg!q70.dpg.webp"> </div>
+								<div class="info">
+									<div class="name"> <i class="mod_tag"><img src="image/5ce3c712Nf3bff694.png!q70.webp"></i> <i class="mod_tag"><img
+											 src="image/5aadf9dbN7043e607.png!q70.webp"></i> ZEOL S271 27英寸 2K高分辨率 旋转升降 原装LGD IPS屏 出厂色彩校准
+										99%sRGB专业设计绘图电脑液晶显示器 </div>
+									<div class="flex_wrap">
+										<div class="price_info">
+											<div class="price">¥<em>1699</em></div>
+										</div>
+										<div class="buy rec_cart"></div>
+									</div>
+								</div>
+							</li>
+							<li class="ad_li" attr-tag="cnxhlink" data-href="//item.m.jd.com/product/7969453.html?exp=0&amp;scene=0&amp;rec=205003&amp;flow=20&amp;itemsid=9051fd9d-b194-4da7-afb5-6b30ffaf3015&amp;source=0&amp;pps=reclike.FO4O605:FOFO4O799AAD3O13O6:FO010416O4C3O4FO8O7FFF502180CFOFO00276B8ABB30C8E808"
+							 data-repurl="//knicks.jd.com/log/server?t=rec_common_clk&amp;v=type=rec.205003$src=rec$action=1$reqsig=6ce6acb5e69d12ec8f31d25134b6432414b62c2a$enb=1$sku=0$skus=47867426887,34823430417,100001503542$p=205003$pin=$enp=IFXDdqNjG3nUnIyU%2FJ1dllaeHcNB96sq$uuid=2145817783$csku=7969453$index=1$st=0$adcli=$expid=101$mexpid=$im=$rid=195525909082324409$ver=1$sig=5527cb65fff8790d9142abf821d7a38b3f2482d4"
+							 data-exposalurl="" source="0" sku="7969453" clk="//knicks.jd.com/log/server?t=rec_common_clk&amp;v=type=rec.205003$src=rec$action=1$reqsig=6ce6acb5e69d12ec8f31d25134b6432414b62c2a$enb=1$sku=0$skus=47867426887,34823430417,100001503542$p=205003$pin=$enp=IFXDdqNjG3nUnIyU%2FJ1dllaeHcNB96sq$uuid=2145817783$csku=7969453$index=1$st=0$adcli=$expid=101$mexpid=$im=$rid=195525909082324409$ver=1$sig=5527cb65fff8790d9142abf821d7a38b3f2482d4"
+							 data-breathreport="1">
+								<div class="cover"> <img src="image/d37734966433a921.jpg!q70.dpg.webp"> </div>
+								<div class="info">
+									<div class="name"> <i class="mod_tag"><img src="image/5ce3c712Nf3bff694.png!q70.webp"></i> <i class="mod_tag"><img
+											 src="image/5aadf9dbN7043e607.png!q70.webp"></i> 【京东JOY联名款】banq 32GB TF（MicroSD）存储卡 U1 C10 A1 高速畅销款
+										行车记录仪监控手机内存卡 </div>
+									<div class="flex_wrap">
+										<div class="price_info">
+											<div class="price">¥<em>19</em>.5</div>
+										</div>
+										<div class="buy rec_cart"></div>
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+				<div id="space" style="padding-bottom: 40px;display:none;"></div>
+			</div>
+			<!-- 二级页面-延保容器 -->
+			<div id="c_jdshopcart_showyb" class="c_showJs"></div>
+			<!-- 二级页面-赠品池容器 -->
+			<div id="c_jdgiftpool_show" class="c_showJs"></div>
+			<!-- 弹层-优惠券容器 -->
+			<div class="mod_coupon_voucher3" id="c_jdshopcoupon_show">
+				<div class="main"></div>
+			</div>
+			<!--  智选购物车 -->
+			<div id="optimalPromo" style="display: none;"></div>
+			<!-- m非空车 以及wq非空车 已登录 专属券包入口用同一个-->
+			<div class="shopcart_btm_tips_v3" id="nonEmptyExcluCouponEnter" style="display: none;">
+				<div class="shopcart_btm_tips_v3_text">送您新人专属福利，<span class="coupon">免运费券</span>等你领！</div>
+				<div class="shopcart_btm_tips_v3_link">点击领取</div>
+			</div>
+			<div class="shop_gift" id="nonEmptyExcluCouponDetail"></div>
+			<!--  总额明细弹层 -->
+			<div class="price_detail" id="totalPriceDetail"></div>
+		</div>
+
+	</body>
+</html>
